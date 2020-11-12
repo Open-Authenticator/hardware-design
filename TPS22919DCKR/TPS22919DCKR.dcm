@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS22919DCKR
+D 5.5V, 1.5A, 90m self-protected load switch with controlled rise time
+K
+F http://www.ti.com/lit/ds/symlink/tps22919.pdf
+$ENDCMP
+#
+#End Doc Library

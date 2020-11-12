@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP2045U-7
+D DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc
+K
+F https://www.diodes.com/assets/Datasheets/DMP2045U.pdf
+$ENDCMP
+#
+#End Doc Library

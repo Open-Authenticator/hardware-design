@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SSD1306)(type KiCad)(uri ${KIPRJMOD}/KiCad-SSD1306-128x64-master/library/SSD1306.pretty)(options "")(descr ""))
+  (lib (name TPS22919DCKR)(type Legacy)(uri ${KIPRJMOD}/TPS22919DCKR/TPS22919DCKR.mod)(options "")(descr ""))
+  (lib (name DMP2045U-7)(type Legacy)(uri ${KIPRJMOD}/DMP2045U/DMP2045U-7.mod)(options "")(descr ""))
+)
