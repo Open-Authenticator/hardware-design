@@ -1201,8 +1201,6 @@ F 3 "~" H 13050 9250 50  0001 C CNN
 	1    13050 9250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13050 9150 13050 8800
 Connection ~ 13050 8800
 Wire Wire Line
 	13050 8800 13550 8800
@@ -1262,5 +1260,16 @@ Wire Wire Line
 Text Label 4850 3650 0    50   ~ 0
 IO23
 Wire Wire Line
-	13850 8800 14500 8800
+	13850 8800 14050 8800
+Wire Wire Line
+	13050 9150 13050 8800
+Wire Wire Line
+	13750 8400 13050 8400
+Wire Wire Line
+	13050 8400 13050 8800
+Wire Wire Line
+	14050 8600 14050 8800
+Connection ~ 14050 8800
+Wire Wire Line
+	14050 8800 14500 8800
 $EndSCHEMATC
