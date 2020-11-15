@@ -14,17 +14,6 @@ Comment3 "License: MIT License"
 Comment4 "Author: Vedant Paranjape"
 $EndDescr
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R4
-U 1 1 5F5143E7
-P 9650 1350
-F 0 "R4" V 9550 1350 50  0000 C CNN
-F 1 "200" V 9764 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 9650 1350 50  0001 C CNN
-F 3 "~" H 9650 1350 50  0001 C CNN
-	1    9650 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L esp_2fa_board_design-rescue:C-Device C2
 U 1 1 5F4FB645
 P 9400 3950
@@ -433,26 +422,6 @@ Wire Wire Line
 	9950 1650 8800 1650
 Wire Wire Line
 	8800 1650 8800 1900
-$Comp
-L esp_2fa_board_design-rescue:1N4148-Diode D1
-U 1 1 5F5151C5
-P 9200 1350
-F 0 "D1" H 9100 1300 50  0000 C CNN
-F 1 "1N4148" H 9200 1450 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9200 1175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9200 1350 50  0001 C CNN
-	1    9200 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 1350 9550 1350
-Wire Wire Line
-	9050 1350 8800 1350
-Wire Wire Line
-	8800 1350 8800 1650
-Connection ~ 8800 1650
-Wire Wire Line
-	9950 1350 9750 1350
 Wire Wire Line
 	9550 3500 9800 3500
 Wire Wire Line
@@ -746,8 +715,6 @@ Wire Wire Line
 	7800 1300 7200 1300
 Connection ~ 7800 1300
 Text Label 7200 1300 2    50   ~ 0
-LOAD_SWITCH_VCC
-Text Label 9950 1350 0    50   ~ 0
 LOAD_SWITCH_VCC
 Wire Wire Line
 	8550 6100 8550 7100

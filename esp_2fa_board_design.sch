@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 "License: MIT License"
 Comment4 "Author: Vedant Paranjape"
 $EndDescr
-$Comp
-L esp_2fa_board_design-rescue:C-Device C2
-U 1 1 5F4FB645
-P 9400 3950
-F 0 "C2" V 9148 3950 50  0000 C CNN
-F 1 "1uF" V 9239 3950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 9438 3800 50  0001 C CNN
-F 3 "~" H 9400 3950 50  0001 C CNN
-	1    9400 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L esp_2fa_board_design-rescue:C-Device C1
-U 1 1 5F4FA4EC
-P 9400 3500
-F 0 "C1" V 9148 3500 50  0000 C CNN
-F 1 "0.1uF" V 9239 3500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 9438 3350 50  0001 C CNN
-F 3 "~" H 9400 3500 50  0001 C CNN
-	1    9400 3500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7600 2000 7600 2200
 Wire Wire Line
@@ -413,8 +391,6 @@ $EndComp
 Wire Wire Line
 	8800 2700 8800 3100
 Wire Wire Line
-	8800 3100 9150 3100
-Wire Wire Line
 	9950 3100 9950 2050
 Wire Wire Line
 	9950 1750 9950 1650
@@ -422,22 +398,6 @@ Wire Wire Line
 	9950 1650 8800 1650
 Wire Wire Line
 	8800 1650 8800 1900
-Wire Wire Line
-	9550 3500 9800 3500
-Wire Wire Line
-	9550 3950 9800 3950
-Wire Wire Line
-	9250 3500 9150 3500
-Wire Wire Line
-	9150 3500 9150 3950
-Wire Wire Line
-	9150 3950 9250 3950
-Wire Wire Line
-	9150 3100 9150 3500
-Connection ~ 9150 3100
-Wire Wire Line
-	9150 3100 9950 3100
-Connection ~ 9150 3500
 Wire Wire Line
 	2850 2950 3200 2950
 Text Label 3200 2950 0    39   ~ 0
@@ -702,15 +662,6 @@ Wire Wire Line
 	7800 1300 8700 1300
 Wire Wire Line
 	7800 1300 7800 1800
-Wire Wire Line
-	9800 3500 9800 3750
-Wire Wire Line
-	9800 3750 10250 3750
-Connection ~ 9800 3750
-Wire Wire Line
-	9800 3750 9800 3950
-Text Label 10250 3750 0    50   ~ 0
-LOAD_SWITCH_VCC
 Wire Wire Line
 	7800 1300 7200 1300
 Connection ~ 7800 1300
@@ -1239,4 +1190,6 @@ Wire Wire Line
 Connection ~ 14050 8800
 Wire Wire Line
 	14050 8800 14500 8800
+Wire Wire Line
+	8800 3100 9950 3100
 $EndSCHEMATC
