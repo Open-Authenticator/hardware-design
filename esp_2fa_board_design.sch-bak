@@ -1133,25 +1133,6 @@ Wire Wire Line
 	14050 8800 14500 8800
 Wire Wire Line
 	8800 3100 9950 3100
-$Comp
-L TYPE-C-31-M-17:TYPE-C-31-M-17 J2
-U 1 1 5FB28BF9
-P 3200 9200
-F 0 "J2" H 3850 8535 50  0000 C CNN
-F 1 "TYPE-C-31-M-17" H 3850 8626 50  0000 C CNN
-F 2 "TYPE-C-31-M-17:TYPEC31M17" H 4350 9300 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" H 4350 9200 50  0001 L CNN
-F 4 "USB Connectors 6 Receptacle 1 RoHS" H 4350 9100 50  0001 L CNN "Description"
-F 5 "3.26" H 4350 9000 50  0001 L CNN "Height"
-F 6 "Korean Hroparts Elec" H 4350 8900 50  0001 L CNN "Manufacturer_Name"
-F 7 "TYPE-C-31-M-17" H 4350 8800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 4350 8700 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 4350 8600 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 4350 8500 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 4350 8400 50  0001 L CNN "Mouser Price/Stock"
-	1    3200 9200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3800 9200 3950 9200
 Wire Wire Line
@@ -1181,10 +1162,6 @@ Connection ~ 3300 8800
 Connection ~ 2600 9400
 Wire Wire Line
 	2600 9400 1900 9400
-NoConn ~ 1900 8800
-NoConn ~ 1900 8900
-NoConn ~ 1900 9000
-NoConn ~ 1900 9100
 $Comp
 L DMP2305U-7:DMP2305U-7 Q1
 U 1 1 5FB76610
@@ -1258,4 +1235,35 @@ Wire Wire Line
 Connection ~ 4900 5950
 Wire Wire Line
 	4900 5950 4900 5750
+$Comp
+L TYPE-C-31-M-17:TYPE-C-31-M-17 J2
+U 1 1 5FB28BF9
+P 3200 9200
+F 0 "J2" H 3850 8535 50  0000 C CNN
+F 1 "TYPE-C-31-M-17" H 3850 8626 50  0000 C CNN
+F 2 "TYPE-C-31-M-17:TYPEC31M17" H 4350 9300 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" H 4350 9200 50  0001 L CNN
+F 4 "USB Connectors 6 Receptacle 1 RoHS" H 4350 9100 50  0001 L CNN "Description"
+F 5 "3.26" H 4350 9000 50  0001 L CNN "Height"
+F 6 "Korean Hroparts Elec" H 4350 8900 50  0001 L CNN "Manufacturer_Name"
+F 7 "TYPE-C-31-M-17" H 4350 8800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4350 8700 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 4350 8600 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 4350 8500 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 4350 8400 50  0001 L CNN "Mouser Price/Stock"
+	1    3200 9200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 8800 1900 8900
+Wire Wire Line
+	1900 8900 1900 9000
+Connection ~ 1900 8900
+Wire Wire Line
+	1900 9000 1900 9100
+Connection ~ 1900 9000
+Wire Wire Line
+	1900 9100 1900 9200
+Connection ~ 1900 9100
+Connection ~ 1900 9200
 $EndSCHEMATC
