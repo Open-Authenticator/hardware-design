@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/vedant/Programming/projects/esp-2fa/hardware_design/esp_2fa_board_design.sch</source>
+    <date>Mon Nov 16 15:56:01 2020</date>
+    <tool>Eeschema 5.1.8-db9833491~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP-2FA</title>
+        <company/>
+        <rev>v1.2</rev>
+        <date>2020-11-12</date>
+        <source>esp_2fa_board_design.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="License: MIT License"/>
+        <comment number="4" value="Author: Vedant Paranjape"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CFF15</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4ADDF7</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>3v</value>
+      <footprint>BU2032SM-BT-GTR:BU2032SMBTGTR</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="Battery_Cell-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4A3DD6</tstamp>
+    </comp>
+    <comp ref="Brd1">
+      <value>SSD1306</value>
+      <footprint>SSD1306:128x64OLED</footprint>
+      <libsource lib="SSD1306-128x64_OLED" part="SSD1306" description="SSD1306 OLED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F487665</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F53429C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F51DDB7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F51D558</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>BOOT</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F51CD78</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F51C3FE</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CEA61</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CE082</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="Conn_01x06_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48EBEC</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32</value>
+      <footprint>RF_Module:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="ESP32-WROOM-32-RF_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F47FF30</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS3231M</value>
+      <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/DS3231.pdf</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="DS3231M-Timer_RTC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F483644</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="MCP73831-2-OT-Battery_Management" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F883F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F9B3C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F9CE0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FA2B3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA380F4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3DF94</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TPS22919DCKR</value>
+      <footprint>TPS22919DCKR:SOT65P210X110-6N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps22919.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TPS22919DCKR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tps22919dckr/texas-instruments</field>
+        <field name="Description">5.5V, 1.5A, 90m self-protected load switch with controlled rise time</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS22919DCKR</field>
+        <field name="Mouser Part Number">595-TPS22919DCKR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22919DCKR?qs=byeeYqUIh0P8WJZpeizUqw%3D%3D</field>
+      </fields>
+      <libsource lib="TPS22919DCKR" part="TPS22919DCKR" description="5.5V, 1.5A, 90m self-protected load switch with controlled rise time"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAC086E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACB5CB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS63001</value>
+      <footprint>Package_SON:Texas_DRC0010J_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63000.pdf</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="TPS63001-Regulator_Switching" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAC38D8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACDAC9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACE9C1</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACEDF9</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACF6AF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD063A</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2 uH</value>
+      <footprint>CDRH104RNP-150NC:INDPM102100X400N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="INDUCTOR-pspice" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD1EA6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6BF47</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBD3EE2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="1N5819-Diode" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD00A97</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD01B8F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP2045U-7</value>
+      <footprint>DMP2045U-7:SOT96P240X110-3N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP2045U.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">DMP2045U-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated</field>
+        <field name="Description">DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMP2045U-7</field>
+        <field name="Mouser Part Number">621-DMP2045U-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D</field>
+      </fields>
+      <libsource lib="DMP2045U-7" part="DMP2045U-7" description="DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD513CE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="esp_2fa_board_design-rescue" part="R_Small_US-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F986A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TYPE-C-31-M-17</value>
+      <footprint>TYPE-C-31-M-17:TYPEC31M17</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf</datasheet>
+      <fields>
+        <field name="Description">USB Connectors 6 Receptacle 1 RoHS</field>
+        <field name="Height">3.26</field>
+        <field name="Manufacturer_Name">Korean Hroparts Elec</field>
+        <field name="Manufacturer_Part_Number">TYPE-C-31-M-17</field>
+      </fields>
+      <libsource lib="TYPE-C-31-M-17" part="TYPE-C-31-M-17" description="USB Connectors 6 Receptacle 1 RoHS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB28BF9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DMP2045U-7" part="DMP2045U-7">
+      <description>DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP2045U.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP2045U-7</field>
+        <field name="Footprint">SOT96P240X110-3N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP2045U.pdf</field>
+        <field name="Description">DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMP2045U-7</field>
+        <field name="Arrow Part Number">DMP2045U-7</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated</field>
+        <field name="Mouser Part Number">621-DMP2045U-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSD1306-128x64_OLED" part="SSD1306">
+      <description>SSD1306 OLED</description>
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS22919DCKR" part="TPS22919DCKR">
+      <description>5.5V, 1.5A, 90m self-protected load switch with controlled rise time</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps22919.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TPS22919DCKR</field>
+        <field name="Footprint">SOT65P210X110-6N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps22919.pdf</field>
+        <field name="Description">5.5V, 1.5A, 90m self-protected load switch with controlled rise time</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS22919DCKR</field>
+        <field name="Arrow Part Number">TPS22919DCKR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tps22919dckr/texas-instruments</field>
+        <field name="Mouser Part Number">595-TPS22919DCKR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22919DCKR?qs=byeeYqUIh0P8WJZpeizUqw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="ON" type="passive"/>
+        <pin num="4" name="N/C" type="NotConnected"/>
+        <pin num="5" name="QOD" type="passive"/>
+        <pin num="6" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TYPE-C-31-M-17" part="TYPE-C-31-M-17">
+      <description>USB Connectors 6 Receptacle 1 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C-31-M-17</field>
+        <field name="Footprint">TYPEC31M17</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf</field>
+        <field name="Description">USB Connectors 6 Receptacle 1 RoHS</field>
+        <field name="Height">3.26</field>
+        <field name="Manufacturer_Name">Korean Hroparts Elec</field>
+        <field name="Manufacturer_Part_Number">TYPE-C-31-M-17</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A9" name="VBUS_1" type="passive"/>
+        <pin num="A12" name="GND_1" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B9" name="VBUS_2" type="passive"/>
+        <pin num="B12" name="GND_2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+        <pin num="MH3" name="MH3" type="passive"/>
+        <pin num="MH4" name="MH4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="1N5819-Diode">
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819-Diode</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="Battery_Cell-Device">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="Conn_01x06_Female-Connector">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="DS3231M-Timer_RTC">
+      <footprints>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231M-Timer_RTC</field>
+        <field name="Footprint">Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST" type="BiDi"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="GND" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VBAT" type="power_in"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="ESP32-WROOM-32-RF_Module">
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32-RF_Module</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="INDUCTOR-pspice">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR-pspice</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="MCP73831-2-OT-Battery_Management">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT-Battery_Management</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="R_Small_US-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="esp_2fa_board_design-rescue" part="TPS63001-Regulator_Switching">
+      <footprints>
+        <fp>Texas*DRC0010J*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63001-Regulator_Switching</field>
+        <field name="Footprint">Package_SON:Texas_DRC0010J_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DMP2045U-7">
+      <uri>/home/vedant/Programming/projects/esp-2fa/hardware_design/DMP2045U/DMP2045U-7.lib</uri>
+    </library>
+    <library logical="SSD1306-128x64_OLED">
+      <uri>/home/vedant/Programming/projects/esp-2fa/hardware_design/KiCad-SSD1306-128x64-master/library/SSD1306-128x64_OLED.lib</uri>
+    </library>
+    <library logical="TPS22919DCKR">
+      <uri>/home/vedant/Programming/projects/esp-2fa/hardware_design/TPS22919DCKR/TPS22919DCKR.lib</uri>
+    </library>
+    <library logical="TYPE-C-31-M-17">
+      <uri>/home/vedant/Programming/projects/esp-2fa/hardware_design/usb-type-c-6p/TYPE-C-31-M-17.lib</uri>
+    </library>
+    <library logical="esp_2fa_board_design-rescue">
+      <uri>/home/vedant/Programming/projects/esp-2fa/hardware_design/esp_2fa_board_design-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="3" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="5" name="/LOAD_SWITCH_VCC">
+      <node ref="U2" pin="2"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Brd1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J2" pin="B12"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="Brd1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="J2" pin="A12"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="8" name="/A1_7_BATT">
+      <node ref="U1" pin="7"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="IC1" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J2-PadA5)">
+      <node ref="R12" pin="2"/>
+      <node ref="J2" pin="A5"/>
+    </net>
+    <net code="11" name="/V_INPUT">
+      <node ref="R1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="12" name="/IO23">
+      <node ref="U1" pin="37"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="13" name="+BATT">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(J2-PadMH1)">
+      <node ref="J2" pin="MH1"/>
+    </net>
+    <net code="15" name="Net-(J2-PadMH2)">
+      <node ref="J2" pin="MH2"/>
+    </net>
+    <net code="16" name="Net-(J2-PadMH3)">
+      <node ref="J2" pin="MH3"/>
+    </net>
+    <net code="17" name="Net-(J2-PadMH4)">
+      <node ref="J2" pin="MH4"/>
+    </net>
+    <net code="18" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="19" name="VBUS">
+      <node ref="D3" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J2" pin="B9"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J2" pin="A9"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad31)">
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="48" name="/BOOT">
+      <node ref="SW3" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="49" name="/EN">
+      <node ref="SW4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="50" name="/IO25">
+      <node ref="U1" pin="10"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="51" name="/IO26">
+      <node ref="U1" pin="11"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="52" name="/IO5_SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="53" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="55" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="56" name="Net-(BT1-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="57" name="/TX">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="58" name="/RX">
+      <node ref="U1" pin="34"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="59" name="/IO21_SDA">
+      <node ref="U1" pin="33"/>
+      <node ref="Brd1" pin="4"/>
+    </net>
+    <net code="60" name="/IO22_SCL">
+      <node ref="U1" pin="36"/>
+      <node ref="Brd1" pin="3"/>
+    </net>
+    <net code="61" name="/IO18_SCL">
+      <node ref="U2" pin="16"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="30"/>
+    </net>
+  </nets>
+</export>
