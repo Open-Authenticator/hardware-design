@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DMP2305U-7
+#/315142/362953/2.47/3/3/MOSFET (P-Channel)
+DEF DMP2305U-7 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "DMP2305U-7" 450 50 50 H V L CNN
+F2 "SOT96P240X110-3N" 450 -50 50 H I L CNN
+F3 "http://www.diodes.com/_files/datasheets/ds31737.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET P-Channel 20V 4.2A SOT23 Diodes Inc DMP2305U-7 P-channel MOSFET Transistor, 4.2 A, -20 V, 3-Pin SOT-23" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "Diodes Inc." 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "DMP2305U-7" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "DMP2305U-7" 450 -650 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/dmp2305u-7/diodes-incorporated" 450 -750 50 H I L CNN "Arrow Price/Stock"
+F10 "621-DMP2305U-7" 450 -850 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2305U-7?qs=oUsD4qhOtFyFQmlG8wLVjw%3D%3D" 450 -950 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

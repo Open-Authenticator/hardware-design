@@ -50,7 +50,7 @@ U 1 1 5F4A3DD6
 P 9950 1950
 F 0 "BT1" H 10068 2046 50  0000 L CNN
 F 1 "3v" H 10068 1955 50  0000 L CNN
-F 2 "" V 9950 2010 50  0001 C CNN
+F 2 "BU2032SM-BT-GTR:BU2032SMBTGTR" V 9950 2010 50  0001 C CNN
 F 3 "~" V 9950 2010 50  0001 C CNN
 	1    9950 1950
 	1    0    0    -1  
@@ -189,9 +189,6 @@ Connection ~ 2950 6150
 Wire Wire Line
 	2950 6550 2700 6550
 Wire Wire Line
-	2950 6450 2950 6500
-Connection ~ 2950 6500
-Wire Wire Line
 	2950 6500 2950 6550
 $Comp
 L esp_2fa_board_design-rescue:GND-power #PWR02
@@ -243,18 +240,18 @@ $EndComp
 Wire Wire Line
 	2850 3150 3200 3150
 Wire Wire Line
-	4050 6150 4050 5750
+	4050 6150 4050 5950
 Text Label 3200 3150 0    39   ~ 0
 IO26
-Text Label 4050 5750 1    39   ~ 0
+Text Label 4300 5950 0    39   ~ 0
 IO26
 Wire Wire Line
 	2850 3050 3200 3050
 Text Label 3200 3050 0    39   ~ 0
 IO25
 Wire Wire Line
-	4900 6150 4900 5750
-Text Label 4900 5750 1    39   ~ 0
+	4900 6150 4900 5950
+Text Label 5150 5950 0    39   ~ 0
 IO25
 Wire Wire Line
 	1650 1350 1400 1350
@@ -1098,25 +1095,6 @@ F 3 "" H 13050 9550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13050 9350 13050 9550
-$Comp
-L DMP2045U-7:DMP2045U-7 Q1
-U 1 1 5FD513CE
-P 13750 8400
-F 0 "Q1" H 14180 8546 50  0000 L CNN
-F 1 "DMP2045U-7" H 14180 8455 50  0000 L CNN
-F 2 "DMP2045U-7:SOT96P240X110-3N" H 14200 8350 50  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP2045U.pdf" H 14200 8250 50  0001 L CNN
-F 4 "DMP2045U-7 P-Channel MOSFET, 3.5 (State) A, 4.3 (Steady) A, 20 V, 3-Pin SOT-23 Diodes Inc" H 14200 8150 50  0001 L CNN "Description"
-F 5 "1.1" H 14200 8050 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 14200 7950 50  0001 L CNN "Manufacturer_Name"
-F 7 "DMP2045U-7" H 14200 7850 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "DMP2045U-7" H 14200 7750 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/dmp2045u-7/diodes-incorporated" H 14200 7650 50  0001 L CNN "Arrow Price/Stock"
-F 10 "621-DMP2045U-7" H 14200 7550 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2045U-7?qs=rrS6PyfT74erdUwo5CgHTg%3D%3D" H 14200 7450 50  0001 L CNN "Mouser Price/Stock"
-	1    13750 8400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14050 8000 14050 7900
 $Comp
@@ -1207,4 +1185,77 @@ NoConn ~ 1900 8800
 NoConn ~ 1900 8900
 NoConn ~ 1900 9000
 NoConn ~ 1900 9100
+$Comp
+L DMP2305U-7:DMP2305U-7 Q1
+U 1 1 5FB76610
+P 13750 8400
+F 0 "Q1" H 14180 8546 50  0000 L CNN
+F 1 "DMP2305U-7" H 14180 8455 50  0000 L CNN
+F 2 "DMP2305U-7:SOT96P240X110-3N" H 14200 8350 50  0001 L CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds31737.pdf" H 14200 8250 50  0001 L CNN
+F 4 "MOSFET P-Channel 20V 4.2A SOT23 Diodes Inc DMP2305U-7 P-channel MOSFET Transistor, 4.2 A, -20 V, 3-Pin SOT-23" H 14200 8150 50  0001 L CNN "Description"
+F 5 "1.1" H 14200 8050 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 14200 7950 50  0001 L CNN "Manufacturer_Name"
+F 7 "DMP2305U-7" H 14200 7850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "DMP2305U-7" H 14200 7750 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/dmp2305u-7/diodes-incorporated" H 14200 7650 50  0001 L CNN "Arrow Price/Stock"
+F 10 "621-DMP2305U-7" H 14200 7550 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2305U-7?qs=oUsD4qhOtFyFQmlG8wLVjw%3D%3D" H 14200 7450 50  0001 L CNN "Mouser Price/Stock"
+	1    13750 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:R_Small_US-Device R4
+U 1 1 5FB7C439
+P 4050 5650
+F 0 "R4" H 4118 5696 50  0000 L CNN
+F 1 "10k" H 4118 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 5650 50  0001 C CNN
+F 3 "~" H 4050 5650 50  0001 C CNN
+	1    4050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:R_Small_US-Device R14
+U 1 1 5FB7C8DA
+P 4900 5650
+F 0 "R14" H 4968 5696 50  0000 L CNN
+F 1 "10k" H 4968 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 5650 50  0001 C CNN
+F 3 "~" H 4900 5650 50  0001 C CNN
+	1    4900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:+3.3V-power #PWR028
+U 1 1 5FB81EE2
+P 4050 5550
+F 0 "#PWR028" H 4050 5400 50  0001 C CNN
+F 1 "+3.3V" H 4065 5723 50  0000 C CNN
+F 2 "" H 4050 5550 50  0001 C CNN
+F 3 "" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:+3.3V-power #PWR029
+U 1 1 5FB822F3
+P 4900 5550
+F 0 "#PWR029" H 4900 5400 50  0001 C CNN
+F 1 "+3.3V" H 4915 5723 50  0000 C CNN
+F 2 "" H 4900 5550 50  0001 C CNN
+F 3 "" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5950 4300 5950
+Connection ~ 4050 5950
+Wire Wire Line
+	4050 5950 4050 5750
+Wire Wire Line
+	4900 5950 5150 5950
+Connection ~ 4900 5950
+Wire Wire Line
+	4900 5950 4900 5750
 $EndSCHEMATC

@@ -1,5 +1,5 @@
 (module "SOT96P240X110-3N" (layer F.Cu)
-  (descr "sot-23")
+  (descr "DMP2305U-7")
   (tags "MOSFET (P-Channel)")
   (attr smd)
   (fp_text reference Q** (at 0 0) (layer F.SilkS)
@@ -28,7 +28,7 @@
   (pad 1 smd rect (at -1.05 -0.96 90) (size 0.65 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.05 0.96 90) (size 0.65 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.05 0 90) (size 0.65 1.1) (layers F.Cu F.Paste F.Mask))
-  (model DMP2045U-7.stp
+  (model DMP2305U-7.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

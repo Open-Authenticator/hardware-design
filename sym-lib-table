@@ -1,9 +1,9 @@
 (sym_lib_table
   (lib (name TPS22919DCKR)(type Legacy)(uri ${KIPRJMOD}/TPS22919DCKR/TPS22919DCKR.lib)(options "")(descr ""))
   (lib (name SSD1306-128x64_OLED)(type Legacy)(uri ${KIPRJMOD}/KiCad-SSD1306-128x64-master/library/SSD1306-128x64_OLED.lib)(options "")(descr ""))
-  (lib (name DMP2045U-7)(type Legacy)(uri ${KIPRJMOD}/DMP2045U/DMP2045U-7.lib)(options "")(descr ""))
   (lib (name esp_2fa_board_design-rescue)(type Legacy)(uri ${KIPRJMOD}/esp_2fa_board_design-rescue.lib)(options "")(descr ""))
   (lib (name TYPE-C-31-M-17)(type Legacy)(uri ${KIPRJMOD}/usb-type-c-6p/TYPE-C-31-M-17.lib)(options "")(descr ""))
   (lib (name CDRH104RNP-150NC)(type Legacy)(uri "${KIPRJMOD}/ CDRH104RNP-inductor/CDRH104RNP-150NC.lib")(options "")(descr ""))
   (lib (name BU2032SM-BT-GTR)(type Legacy)(uri "${KIPRJMOD}/ BU2032SM-BT-GTR -coin-cell-holder/BU2032SM-BT-GTR.lib")(options "")(descr ""))
+  (lib (name DMP2305U-7)(type Legacy)(uri ${KIPRJMOD}/DMP2305U/DMP2305U-7.lib)(options "")(descr ""))
 )
