@@ -926,17 +926,6 @@ $EndComp
 Wire Notes Line width 20 style dash_dot rgb(194, 7, 0)
 	6050 7700 6050 11150
 $Comp
-L esp_2fa_board_design-rescue:Logo_Open_Hardware_Large-Graphic #LOGO1
-U 1 1 5FB5EB94
-P 8650 9100
-F 0 "#LOGO1" H 8650 9600 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 8650 8700 50  0001 C CNN
-F 2 "" H 8650 9100 50  0001 C CNN
-F 3 "~" H 8650 9100 50  0001 C CNN
-	1    8650 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L esp_2fa_board_design-rescue:GND-power #PWR024
 U 1 1 5FB64F2A
 P 2600 9400
@@ -1266,4 +1255,119 @@ Wire Wire Line
 	1900 9100 1900 9200
 Connection ~ 1900 9100
 Connection ~ 1900 9200
+$Comp
+L esp_2fa_board_design-rescue:Logo_Open_Hardware_Large-Graphic #LOGO1
+U 1 1 5FB5EB94
+P 15450 9400
+F 0 "#LOGO1" H 15450 9900 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 15450 9000 50  0001 C CNN
+F 2 "" H 15450 9400 50  0001 C CNN
+F 3 "~" H 15450 9400 50  0001 C CNN
+	1    15450 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FBDE92D
+P 7100 8650
+F 0 "TP1" H 7158 8768 50  0000 L CNN
+F 1 "3V3" H 7158 8677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7300 8650 50  0001 C CNN
+F 3 "~" H 7300 8650 50  0001 C CNN
+	1    7100 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FBE1246
+P 7650 8650
+F 0 "TP2" H 7708 8768 50  0000 L CNN
+F 1 "GND" H 7708 8677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7850 8650 50  0001 C CNN
+F 3 "~" H 7850 8650 50  0001 C CNN
+	1    7650 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FBE142E
+P 8200 8650
+F 0 "TP3" H 8258 8768 50  0000 L CNN
+F 1 "+BATT" H 8258 8677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8400 8650 50  0001 C CNN
+F 3 "~" H 8400 8650 50  0001 C CNN
+	1    8200 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5FBE16FC
+P 8750 8650
+F 0 "TP4" H 8808 8768 50  0000 L CNN
+F 1 "LOAD_SWITCH" H 8808 8677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8950 8650 50  0001 C CNN
+F 3 "~" H 8950 8650 50  0001 C CNN
+	1    8750 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5FBE1988
+P 9400 8650
+F 0 "TP5" H 9458 8768 50  0000 L CNN
+F 1 "V_INPUT" H 9458 8677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9600 8650 50  0001 C CNN
+F 3 "~" H 9600 8650 50  0001 C CNN
+	1    9400 8650
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 8000 0    118  ~ 0
+Test points and battery terminal
+Wire Wire Line
+	7100 8650 7100 9250
+Wire Wire Line
+	7650 8650 7650 9250
+Wire Wire Line
+	8200 8650 8200 9250
+Wire Wire Line
+	8750 8650 8750 9250
+Wire Wire Line
+	9400 8650 9400 9250
+$Comp
+L power:+3.3V #PWR030
+U 1 1 5FC0B82F
+P 7100 9250
+F 0 "#PWR030" H 7100 9100 50  0001 C CNN
+F 1 "+3.3V" H 7115 9423 50  0000 C CNN
+F 2 "" H 7100 9250 50  0001 C CNN
+F 3 "" H 7100 9250 50  0001 C CNN
+	1    7100 9250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5FC0BC1F
+P 7650 9250
+F 0 "#PWR031" H 7650 9000 50  0001 C CNN
+F 1 "GND" H 7655 9077 50  0000 C CNN
+F 2 "" H 7650 9250 50  0001 C CNN
+F 3 "" H 7650 9250 50  0001 C CNN
+	1    7650 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR032
+U 1 1 5FC0BFDD
+P 8200 9250
+F 0 "#PWR032" H 8200 9100 50  0001 C CNN
+F 1 "+BATT" H 8215 9423 50  0000 C CNN
+F 2 "" H 8200 9250 50  0001 C CNN
+F 3 "" H 8200 9250 50  0001 C CNN
+	1    8200 9250
+	-1   0    0    1   
+$EndComp
+Text Label 8750 9250 1    39   ~ 0
+LOAD_SWITCH_VCC
+Text Label 9400 9250 1    39   ~ 0
+V_INPUT
 $EndSCHEMATC
