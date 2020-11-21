@@ -82,7 +82,7 @@ L esp_2fa_board_design-rescue:C-Device C3
 U 1 1 5F51DDB7
 P 2950 6350
 F 0 "C3" H 3065 6396 50  0000 L CNN
-F 1 "1uF" H 3065 6305 50  0000 L CNN
+F 1 "1uF 50V" H 3065 6305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2988 6200 50  0001 C CNN
 F 3 "~" H 2950 6350 50  0001 C CNN
 	1    2950 6350
@@ -160,17 +160,17 @@ Wire Notes Line width 20 style dash_dot rgb(194, 19, 7)
 	4150 500  4150 4300
 Wire Notes Line width 20 style dash_dot rgb(194, 19, 7)
 	4150 2150 6050 2150
-Text Notes 1650 750  0    118  ~ 0
+Text Notes 1650 700  0    118  ~ 0
 Microcontroller 
 $Comp
 L esp_2fa_board_design-rescue:ESP32-WROOM-32-RF_Module U1
 U 1 1 5F47FF30
-P 2250 2550
-F 0 "U1" H 1950 3900 50  0000 C CNN
-F 1 "ESP32-WROOM-32" V 2250 2650 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 2250 1050 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1950 2600 50  0001 C CNN
-	1    2250 2550
+P 1550 2600
+F 0 "U1" H 1250 3950 50  0000 C CNN
+F 1 "ESP32-WROOM-32" V 1550 2700 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 1550 1100 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 1250 2650 50  0001 C CNN
+	1    1550 2600
 	1    0    0    -1  
 $EndComp
 Text Notes 4450 750  0    118  ~ 0
@@ -238,24 +238,24 @@ F 3 "" H 4900 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 3150 3200 3150
+	2150 3200 2500 3200
 Wire Wire Line
 	4050 6150 4050 5950
-Text Label 3200 3150 0    39   ~ 0
+Text Label 2500 3200 0    39   ~ 0
 IO26
 Text Label 4300 5950 0    39   ~ 0
 IO26
 Wire Wire Line
-	2850 3050 3200 3050
-Text Label 3200 3050 0    39   ~ 0
+	2150 3100 2500 3100
+Text Label 2500 3100 0    39   ~ 0
 IO25
 Wire Wire Line
 	4900 6150 4900 5950
 Text Label 5150 5950 0    39   ~ 0
 IO25
 Wire Wire Line
-	1650 1350 1400 1350
-Text Label 1400 1350 0    39   ~ 0
+	950  1400 700  1400
+Text Label 700  1400 0    39   ~ 0
 EN
 Wire Wire Line
 	1500 5750 1500 5950
@@ -267,8 +267,8 @@ Wire Wire Line
 Text Label 1850 5950 0    39   ~ 0
 BOOT
 Wire Wire Line
-	2850 1350 3200 1350
-Text Label 3200 1350 0    39   ~ 0
+	2150 1400 2500 1400
+Text Label 2500 1400 0    39   ~ 0
 BOOT
 Wire Wire Line
 	2950 5750 2950 5950
@@ -301,13 +301,13 @@ Wire Wire Line
 	2950 5950 2950 6150
 Text Label 3300 5950 0    39   ~ 0
 EN
-Text Label 3200 2750 0    39   ~ 0
+Text Label 2500 2800 0    39   ~ 0
 IO21_SDA
 Wire Wire Line
-	2850 2750 3200 2750
+	2150 2800 2500 2800
 Wire Wire Line
-	2850 2850 3200 2850
-Text Label 3200 2850 0    39   ~ 0
+	2150 2900 2500 2900
+Text Label 2500 2900 0    39   ~ 0
 IO22_SCL
 Wire Wire Line
 	8650 6100 8650 6400
@@ -347,12 +347,12 @@ $EndComp
 Wire Wire Line
 	5300 1450 5300 1650
 Wire Wire Line
-	2850 1450 3200 1450
-Text Label 3200 1450 0    39   ~ 0
+	2150 1500 2500 1500
+Text Label 2500 1500 0    39   ~ 0
 TX
 Wire Wire Line
-	2850 1650 3200 1650
-Text Label 3200 1650 0    39   ~ 0
+	2150 1700 2500 1700
+Text Label 2500 1700 0    39   ~ 0
 RX
 Wire Wire Line
 	4900 1450 4900 1700
@@ -388,24 +388,24 @@ $EndComp
 Wire Wire Line
 	8800 2700 8800 3100
 Wire Wire Line
-	9950 3100 9950 2050
+	9950 3100 9950 2150
 Wire Wire Line
 	9950 1750 9950 1650
 Wire Wire Line
-	9950 1650 8800 1650
+	9950 1650 9550 1650
 Wire Wire Line
 	8800 1650 8800 1900
 Wire Wire Line
-	2850 2950 3200 2950
-Text Label 3200 2950 0    39   ~ 0
+	2150 3000 2500 3000
+Text Label 2500 3000 0    39   ~ 0
 IO23
 Wire Wire Line
-	2850 1850 3200 1850
-Text Label 3200 1850 0    39   ~ 0
+	2150 1900 2500 1900
+Text Label 2500 1900 0    39   ~ 0
 IO5_SDA
 Wire Wire Line
-	2850 2550 3200 2550
-Text Label 3200 2550 0    39   ~ 0
+	2150 2600 2500 2600
+Text Label 2500 2600 0    39   ~ 0
 IO18_SCL
 Text Label 6750 2100 0    39   ~ 0
 IO18_SCL
@@ -446,7 +446,7 @@ L esp_2fa_board_design-rescue:C-Device C4
 U 1 1 5F9F9CE0
 P 14550 2800
 F 0 "C4" V 14298 2800 50  0000 C CNN
-F 1 "10uF" V 14389 2800 50  0000 C CNN
+F 1 "10uF 50V" V 14389 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 14588 2650 50  0001 C CNN
 F 3 "~" H 14550 2800 50  0001 C CNN
 	1    14550 2800
@@ -477,23 +477,23 @@ $EndComp
 $Comp
 L esp_2fa_board_design-rescue:GND-power #PWR017
 U 1 1 5F9FF9DE
-P 2250 3950
-F 0 "#PWR017" H 2250 3700 50  0001 C CNN
-F 1 "GND" H 2255 3777 50  0000 C CNN
-F 2 "" H 2250 3950 50  0001 C CNN
-F 3 "" H 2250 3950 50  0001 C CNN
-	1    2250 3950
+P 1550 4000
+F 0 "#PWR017" H 1550 3750 50  0001 C CNN
+F 1 "GND" H 1555 3827 50  0000 C CNN
+F 2 "" H 1550 4000 50  0001 C CNN
+F 3 "" H 1550 4000 50  0001 C CNN
+	1    1550 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L esp_2fa_board_design-rescue:+3.3V-power #PWR016
 U 1 1 5F9FF326
-P 2250 1150
-F 0 "#PWR016" H 2250 1000 50  0001 C CNN
-F 1 "+3.3V" H 2265 1323 50  0000 C CNN
-F 2 "" H 2250 1150 50  0001 C CNN
-F 3 "" H 2250 1150 50  0001 C CNN
-	1    2250 1150
+P 1550 1050
+F 0 "#PWR016" H 1550 900 50  0001 C CNN
+F 1 "+3.3V" H 1565 1223 50  0000 C CNN
+F 2 "" H 1550 1050 50  0001 C CNN
+F 3 "" H 1550 1050 50  0001 C CNN
+	1    1550 1050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -566,65 +566,65 @@ Wire Wire Line
 $Comp
 L esp_2fa_board_design-rescue:R_Small_US-Device R9
 U 1 1 5FA380F4
-P 12150 1950
-F 0 "R9" V 12050 1950 50  0000 C CNN
-F 1 "100k" V 12264 1950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 12150 1950 50  0001 C CNN
-F 3 "~" H 12150 1950 50  0001 C CNN
-	1    12150 1950
+P 11850 1650
+F 0 "R9" V 11750 1650 50  0000 C CNN
+F 1 "100k" V 11964 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11850 1650 50  0001 C CNN
+F 3 "~" H 11850 1650 50  0001 C CNN
+	1    11850 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L esp_2fa_board_design-rescue:R_Small_US-Device R10
 U 1 1 5FA3DF94
-P 12150 2650
-F 0 "R10" V 12050 2650 50  0000 C CNN
-F 1 "100k" V 12264 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 12150 2650 50  0001 C CNN
-F 3 "~" H 12150 2650 50  0001 C CNN
-	1    12150 2650
+P 11850 2350
+F 0 "R10" V 11750 2350 50  0000 C CNN
+F 1 "100k" V 11964 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11850 2350 50  0001 C CNN
+F 3 "~" H 11850 2350 50  0001 C CNN
+	1    11850 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L esp_2fa_board_design-rescue:+BATT-power #PWR022
 U 1 1 5FA3E731
-P 12150 1600
-F 0 "#PWR022" H 12150 1450 50  0001 C CNN
-F 1 "+BATT" H 12165 1773 50  0000 C CNN
-F 2 "" H 12150 1600 50  0001 C CNN
-F 3 "" H 12150 1600 50  0001 C CNN
-	1    12150 1600
+P 11850 1300
+F 0 "#PWR022" H 11850 1150 50  0001 C CNN
+F 1 "+BATT" H 11865 1473 50  0000 C CNN
+F 2 "" H 11850 1300 50  0001 C CNN
+F 3 "" H 11850 1300 50  0001 C CNN
+	1    11850 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 1600 12150 1850
+	11850 1300 11850 1550
 Wire Wire Line
-	12150 2050 12150 2300
+	11850 1750 11850 2000
 Wire Wire Line
 	14050 3050 14050 3400
 $Comp
 L esp_2fa_board_design-rescue:GND-power #PWR023
 U 1 1 5FA47CE6
-P 12150 3400
-F 0 "#PWR023" H 12150 3150 50  0001 C CNN
-F 1 "GND" H 12155 3227 50  0000 C CNN
-F 2 "" H 12150 3400 50  0001 C CNN
-F 3 "" H 12150 3400 50  0001 C CNN
-	1    12150 3400
+P 11850 3100
+F 0 "#PWR023" H 11850 2850 50  0001 C CNN
+F 1 "GND" H 11855 2927 50  0000 C CNN
+F 2 "" H 11850 3100 50  0001 C CNN
+F 3 "" H 11850 3100 50  0001 C CNN
+	1    11850 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 2750 12150 3400
+	11850 2450 11850 3100
 Wire Wire Line
-	12150 2300 11600 2300
-Connection ~ 12150 2300
+	11850 2000 11300 2000
+Connection ~ 11850 2000
 Wire Wire Line
-	12150 2300 12150 2550
-Text Label 11600 2300 0    39   ~ 0
+	11850 2000 11850 2250
+Text Label 11300 2000 0    39   ~ 0
 A1_7_BATT
 Wire Wire Line
-	2850 3650 3200 3650
-Text Label 3200 3650 0    39   ~ 0
+	2150 3700 2500 3700
+Text Label 2500 3700 0    39   ~ 0
 A1_7_BATT
 Text Notes 13000 4550 0    118  ~ 0
 Power Section
@@ -641,8 +641,6 @@ F 3 "" H 8800 3500 50  0001 C CNN
 	1    8800 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8800 3500 8800 3100
 Connection ~ 8800 3100
 $Comp
 L esp_2fa_board_design-rescue:GND-power #PWR010
@@ -694,7 +692,7 @@ L esp_2fa_board_design-rescue:C-Device C5
 U 1 1 5FACB5CB
 P 4500 3150
 F 0 "C5" V 4750 3150 50  0000 C CNN
-F 1 "1uF" V 4650 3150 50  0000 C CNN
+F 1 "1uF 50V" V 4650 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 3000 50  0001 C CNN
 F 3 "~" H 4500 3150 50  0001 C CNN
 	1    4500 3150
@@ -762,7 +760,7 @@ L esp_2fa_board_design-rescue:C-Device C6
 U 1 1 5FACDAC9
 P 12550 6500
 F 0 "C6" H 12665 6546 50  0000 L CNN
-F 1 "10uF" H 12665 6455 50  0000 L CNN
+F 1 "10uF 50V" H 12550 6400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 12588 6350 50  0001 C CNN
 F 3 "~" H 12550 6500 50  0001 C CNN
 	1    12550 6500
@@ -773,7 +771,7 @@ L esp_2fa_board_design-rescue:C-Device C7
 U 1 1 5FACE9C1
 P 13000 6500
 F 0 "C7" H 13115 6546 50  0000 L CNN
-F 1 "0.1uF" H 13115 6455 50  0000 L CNN
+F 1 "0.1uF 50V" H 13000 6400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 13038 6350 50  0001 C CNN
 F 3 "~" H 13000 6500 50  0001 C CNN
 	1    13000 6500
@@ -784,7 +782,7 @@ L esp_2fa_board_design-rescue:C-Device C8
 U 1 1 5FACEDF9
 P 14300 6500
 F 0 "C8" H 14415 6546 50  0000 L CNN
-F 1 "10uF" H 14415 6455 50  0000 L CNN
+F 1 "10uF 50V" H 14300 6400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 14338 6350 50  0001 C CNN
 F 3 "~" H 14300 6500 50  0001 C CNN
 	1    14300 6500
@@ -795,7 +793,7 @@ L esp_2fa_board_design-rescue:C-Device C9
 U 1 1 5FACF6AF
 P 14750 6500
 F 0 "C9" H 14865 6546 50  0000 L CNN
-F 1 "10uF" H 14865 6455 50  0000 L CNN
+F 1 "10uF 50V" H 14750 6400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 14788 6350 50  0001 C CNN
 F 3 "~" H 14750 6500 50  0001 C CNN
 	1    14750 6500
@@ -950,26 +948,24 @@ $EndComp
 $Comp
 L esp_2fa_board_design-rescue:GND-power #PWR025
 U 1 1 5FB7EC2E
-P 4150 9050
-F 0 "#PWR025" H 4150 8800 50  0001 C CNN
-F 1 "GND" V 4155 8922 50  0000 R CNN
-F 2 "" H 4150 9050 50  0001 C CNN
-F 3 "" H 4150 9050 50  0001 C CNN
-	1    4150 9050
-	0    -1   -1   0   
+P 3950 9400
+F 0 "#PWR025" H 3950 9150 50  0001 C CNN
+F 1 "GND" V 3955 9272 50  0000 R CNN
+F 2 "" H 3950 9400 50  0001 C CNN
+F 3 "" H 3950 9400 50  0001 C CNN
+	1    3950 9400
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 8600 4300 8600
 $Comp
 L esp_2fa_board_design-rescue:VBUS-power #PWR026
 U 1 1 5FB99C8D
-P 4300 8600
-F 0 "#PWR026" H 4300 8450 50  0001 C CNN
-F 1 "VBUS" V 4315 8728 50  0000 L CNN
-F 2 "" H 4300 8600 50  0001 C CNN
-F 3 "" H 4300 8600 50  0001 C CNN
-	1    4300 8600
-	0    1    1    0   
+P 3300 8600
+F 0 "#PWR026" H 3300 8450 50  0001 C CNN
+F 1 "VBUS" V 3315 8728 50  0000 L CNN
+F 2 "" H 3300 8600 50  0001 C CNN
+F 3 "" H 3300 8600 50  0001 C CNN
+	1    3300 8600
+	1    0    0    -1  
 $EndComp
 $Comp
 L esp_2fa_board_design-rescue:R_Small_US-Device R12
@@ -985,9 +981,7 @@ $EndComp
 Wire Wire Line
 	3950 8900 3800 8900
 Wire Wire Line
-	3950 9050 4150 9050
-Wire Wire Line
-	3950 9050 3950 8900
+	3950 9200 3950 9400
 Wire Notes Line width 20 style dash_dot rgb(194, 24, 3)
 	11150 7700 11150 11150
 Text Label 12000 5800 0    50   ~ 0
@@ -1019,27 +1013,27 @@ $EndComp
 Text Label 14500 8800 0    50   ~ 0
 V_INPUT
 NoConn ~ 5850 3200
-NoConn ~ 1650 1550
-NoConn ~ 1650 1650
-NoConn ~ 1650 2550
-NoConn ~ 1650 2650
-NoConn ~ 1650 2750
-NoConn ~ 1650 2850
-NoConn ~ 1650 2950
-NoConn ~ 1650 3050
-NoConn ~ 2850 1750
-NoConn ~ 2850 1550
-NoConn ~ 2850 1950
-NoConn ~ 2850 2050
-NoConn ~ 2850 2150
-NoConn ~ 2850 2250
-NoConn ~ 2850 2350
-NoConn ~ 2850 2450
-NoConn ~ 2850 2650
-NoConn ~ 2850 3250
-NoConn ~ 2850 3350
-NoConn ~ 2850 3450
-NoConn ~ 2850 3550
+NoConn ~ 950  1600
+NoConn ~ 950  1700
+NoConn ~ 950  2600
+NoConn ~ 950  2700
+NoConn ~ 950  2800
+NoConn ~ 950  2900
+NoConn ~ 950  3000
+NoConn ~ 950  3100
+NoConn ~ 2150 1800
+NoConn ~ 2150 1600
+NoConn ~ 2150 2000
+NoConn ~ 2150 2100
+NoConn ~ 2150 2200
+NoConn ~ 2150 2300
+NoConn ~ 2150 2400
+NoConn ~ 2150 2500
+NoConn ~ 2150 2700
+NoConn ~ 2150 3300
+NoConn ~ 2150 3400
+NoConn ~ 2150 3500
+NoConn ~ 2150 3600
 NoConn ~ 4800 1450
 NoConn ~ 5100 1450
 NoConn ~ 5200 1450
@@ -1121,16 +1115,9 @@ Connection ~ 14050 8800
 Wire Wire Line
 	14050 8800 14500 8800
 Wire Wire Line
-	8800 3100 9950 3100
-Wire Wire Line
 	3800 9200 3950 9200
 Wire Wire Line
-	3950 9200 3950 9050
-Connection ~ 3950 9050
-Wire Wire Line
 	3200 8900 3600 8900
-Wire Wire Line
-	3600 9200 3200 9200
 Wire Wire Line
 	3200 9000 3350 9000
 Wire Wire Line
@@ -1256,118 +1243,280 @@ Wire Wire Line
 Connection ~ 1900 9100
 Connection ~ 1900 9200
 $Comp
-L esp_2fa_board_design-rescue:Logo_Open_Hardware_Large-Graphic #LOGO1
-U 1 1 5FB5EB94
-P 15450 9400
-F 0 "#LOGO1" H 15450 9900 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Large" H 15450 9000 50  0001 C CNN
-F 2 "" H 15450 9400 50  0001 C CNN
-F 3 "~" H 15450 9400 50  0001 C CNN
-	1    15450 9400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP1
 U 1 1 5FBDE92D
-P 7100 8650
-F 0 "TP1" H 7158 8768 50  0000 L CNN
-F 1 "3V3" H 7158 8677 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7300 8650 50  0001 C CNN
-F 3 "~" H 7300 8650 50  0001 C CNN
-	1    7100 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5FBE1246
-P 7650 8650
-F 0 "TP2" H 7708 8768 50  0000 L CNN
-F 1 "GND" H 7708 8677 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7850 8650 50  0001 C CNN
-F 3 "~" H 7850 8650 50  0001 C CNN
-	1    7650 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5FBE142E
-P 8200 8650
-F 0 "TP3" H 8258 8768 50  0000 L CNN
-F 1 "+BATT" H 8258 8677 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8400 8650 50  0001 C CNN
-F 3 "~" H 8400 8650 50  0001 C CNN
-	1    8200 8650
+P 8650 8700
+F 0 "TP1" H 8708 8818 50  0000 L CNN
+F 1 "3V3" H 8708 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8850 8700 50  0001 C CNN
+F 3 "~" H 8850 8700 50  0001 C CNN
+	1    8650 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5FBE16FC
-P 8750 8650
-F 0 "TP4" H 8808 8768 50  0000 L CNN
-F 1 "LOAD_SWITCH" H 8808 8677 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8950 8650 50  0001 C CNN
-F 3 "~" H 8950 8650 50  0001 C CNN
-	1    8750 8650
+P 9450 8700
+F 0 "TP4" H 9508 8818 50  0000 L CNN
+F 1 "LOAD_SWITCH" H 9508 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9650 8700 50  0001 C CNN
+F 3 "~" H 9650 8700 50  0001 C CNN
+	1    9450 8700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5FBE1988
-P 9400 8650
-F 0 "TP5" H 9458 8768 50  0000 L CNN
-F 1 "V_INPUT" H 9458 8677 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9600 8650 50  0001 C CNN
-F 3 "~" H 9600 8650 50  0001 C CNN
-	1    9400 8650
+P 10100 8700
+F 0 "TP5" H 10158 8818 50  0000 L CNN
+F 1 "V_INPUT" H 10158 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 10300 8700 50  0001 C CNN
+F 3 "~" H 10300 8700 50  0001 C CNN
+	1    10100 8700
 	1    0    0    -1  
 $EndComp
-Text Notes 7350 8000 0    118  ~ 0
-Test points and battery terminal
+Text Notes 7900 8000 0    118  ~ 0
+Test points 
 Wire Wire Line
-	7100 8650 7100 9250
+	8650 8700 8650 9300
 Wire Wire Line
-	7650 8650 7650 9250
+	12750 1550 12750 2150
 Wire Wire Line
-	8200 8650 8200 9250
+	9450 8700 9450 9300
 Wire Wire Line
-	8750 8650 8750 9250
-Wire Wire Line
-	9400 8650 9400 9250
+	10100 8700 10100 9300
 $Comp
 L power:+3.3V #PWR030
 U 1 1 5FC0B82F
-P 7100 9250
-F 0 "#PWR030" H 7100 9100 50  0001 C CNN
-F 1 "+3.3V" H 7115 9423 50  0000 C CNN
-F 2 "" H 7100 9250 50  0001 C CNN
-F 3 "" H 7100 9250 50  0001 C CNN
-	1    7100 9250
+P 8650 9300
+F 0 "#PWR030" H 8650 9150 50  0001 C CNN
+F 1 "+3.3V" H 8665 9473 50  0000 C CNN
+F 2 "" H 8650 9300 50  0001 C CNN
+F 3 "" H 8650 9300 50  0001 C CNN
+	1    8650 9300
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR031
 U 1 1 5FC0BC1F
-P 7650 9250
-F 0 "#PWR031" H 7650 9000 50  0001 C CNN
-F 1 "GND" H 7655 9077 50  0000 C CNN
-F 2 "" H 7650 9250 50  0001 C CNN
-F 3 "" H 7650 9250 50  0001 C CNN
-	1    7650 9250
+P 12450 2150
+F 0 "#PWR031" H 12450 1900 50  0001 C CNN
+F 1 "GND" H 12455 1977 50  0000 C CNN
+F 2 "" H 12450 2150 50  0001 C CNN
+F 3 "" H 12450 2150 50  0001 C CNN
+	1    12450 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR032
 U 1 1 5FC0BFDD
-P 8200 9250
-F 0 "#PWR032" H 8200 9100 50  0001 C CNN
-F 1 "+BATT" H 8215 9423 50  0000 C CNN
-F 2 "" H 8200 9250 50  0001 C CNN
-F 3 "" H 8200 9250 50  0001 C CNN
-	1    8200 9250
+P 12950 2150
+F 0 "#PWR032" H 12950 2000 50  0001 C CNN
+F 1 "+BATT" H 12965 2323 50  0000 C CNN
+F 2 "" H 12950 2150 50  0001 C CNN
+F 3 "" H 12950 2150 50  0001 C CNN
+	1    12950 2150
 	-1   0    0    1   
 $EndComp
-Text Label 8750 9250 1    39   ~ 0
+Text Label 9450 9300 1    39   ~ 0
 LOAD_SWITCH_VCC
-Text Label 9400 9250 1    39   ~ 0
+Text Label 10100 9300 1    39   ~ 0
 V_INPUT
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5FBB5A90
+P 12750 1350
+F 0 "J3" V 12812 1394 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 12903 1394 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Horizontal" H 12750 1350 50  0001 C CNN
+F 3 "~" H 12750 1350 50  0001 C CNN
+	1    12750 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12650 1550 12650 2150
+Wire Wire Line
+	12450 2150 12650 2150
+Wire Wire Line
+	12750 2150 12950 2150
+Wire Wire Line
+	8800 3500 8800 3100
+$Comp
+L esp_2fa_board_design-rescue:C-Device C10
+U 1 1 5FC17CE1
+P 9550 1900
+F 0 "C10" H 9665 1946 50  0000 L CNN
+F 1 "1uF 50V" H 9100 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9588 1750 50  0001 C CNN
+F 3 "~" H 9550 1900 50  0001 C CNN
+	1    9550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1750 9550 1650
+Wire Wire Line
+	8800 3100 9950 3100
+Connection ~ 9550 1650
+Wire Wire Line
+	9550 1650 8800 1650
+Wire Wire Line
+	9550 2050 9550 2150
+Wire Wire Line
+	9550 2150 9950 2150
+Connection ~ 9950 2150
+Wire Wire Line
+	9950 2150 9950 2050
+$Comp
+L esp_2fa_board_design-rescue:C-Device C2
+U 1 1 5FC4D43F
+P 3300 1300
+F 0 "C2" H 3415 1346 50  0000 L CNN
+F 1 "0.1uF 50V" H 3415 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 1150 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:C-Device C1
+U 1 1 5FC52EFD
+P 3300 1000
+F 0 "C1" H 3415 1046 50  0000 L CNN
+F 1 "10uF 50V" H 3415 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 850 50  0001 C CNN
+F 3 "~" H 3300 1000 50  0001 C CNN
+	1    3300 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 1000 3100 1000
+Wire Wire Line
+	3450 1000 3500 1000
+$Comp
+L power:GND #PWR033
+U 1 1 5FC88584
+P 3600 1150
+F 0 "#PWR033" H 3600 900 50  0001 C CNN
+F 1 "GND" V 3605 1022 50  0000 R CNN
+F 2 "" H 3600 1150 50  0001 C CNN
+F 3 "" H 3600 1150 50  0001 C CNN
+	1    3600 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1000 3100 1150
+Wire Wire Line
+	3100 1300 3150 1300
+Wire Wire Line
+	3450 1300 3500 1300
+Connection ~ 3500 1150
+Wire Wire Line
+	3500 1150 3500 1300
+Wire Wire Line
+	3500 1000 3500 1150
+Wire Wire Line
+	1550 1150 3100 1150
+Connection ~ 3100 1150
+Wire Wire Line
+	3100 1150 3100 1300
+Text Notes 14850 2700 0    50   ~ 0
+HIGH - Charge complete state\nLOW - Charging state
+Text Notes 14350 3950 0    79   ~ 0
+I_REG = 1000/R_PROG\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
+Wire Wire Line
+	3950 8900 3950 9200
+Connection ~ 3950 9200
+Wire Wire Line
+	3200 9200 3600 9200
+Connection ~ 1550 1150
+Wire Wire Line
+	1550 1150 1550 1200
+Wire Wire Line
+	1550 1050 1550 1150
+Wire Wire Line
+	3600 1150 3500 1150
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5FBABC3C
+P 8200 8700
+F 0 "TP7" H 8258 8818 50  0000 L CNN
+F 1 "OLED_SCL" H 8258 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8400 8700 50  0001 C CNN
+F 3 "~" H 8400 8700 50  0001 C CNN
+	1    8200 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5FBABFAB
+P 7750 8700
+F 0 "TP6" H 7808 8818 50  0000 L CNN
+F 1 "OLED_SDA" H 7808 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7950 8700 50  0001 C CNN
+F 3 "~" H 7950 8700 50  0001 C CNN
+	1    7750 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FBAC272
+P 7300 8700
+F 0 "TP3" H 7358 8818 50  0000 L CNN
+F 1 "RTC_SCL" H 7358 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7500 8700 50  0001 C CNN
+F 3 "~" H 7500 8700 50  0001 C CNN
+	1    7300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5FBAC716
+P 6900 8700
+F 0 "TP2" H 6958 8818 50  0000 L CNN
+F 1 "RTC_SDA" H 6958 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7100 8700 50  0001 C CNN
+F 3 "~" H 7100 8700 50  0001 C CNN
+	1    6900 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 8700 8200 9300
+Wire Wire Line
+	7750 8700 7750 9300
+Wire Wire Line
+	7300 8700 7300 9300
+Wire Wire Line
+	6900 8700 6900 9300
+Text Label 6900 9300 1    50   ~ 0
+IO5_SDA
+Text Label 7300 9300 1    50   ~ 0
+IO18_SCL
+Text Label 7750 9300 1    50   ~ 0
+IO21_SDA
+Text Label 8200 9300 1    50   ~ 0
+IO22_SCL
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5FC0B51C
+P 9050 8700
+F 0 "TP8" H 9108 8818 50  0000 L CNN
+F 1 "GND" H 9108 8727 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9250 8700 50  0001 C CNN
+F 3 "~" H 9250 8700 50  0001 C CNN
+	1    9050 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 8700 9050 9300
+$Comp
+L power:GND #PWR034
+U 1 1 5FC15BFB
+P 9050 9300
+F 0 "#PWR034" H 9050 9050 50  0001 C CNN
+F 1 "GND" H 9055 9127 50  0000 C CNN
+F 2 "" H 9050 9300 50  0001 C CNN
+F 3 "" H 9050 9300 50  0001 C CNN
+	1    9050 9300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

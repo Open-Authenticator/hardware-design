@@ -2,7 +2,6 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP DMP2305U-7
 D MOSFET P-Channel 20V 4.2A SOT23 Diodes Inc DMP2305U-7 P-channel MOSFET Transistor, 4.2 A, -20 V, 3-Pin SOT-23
-K
 F http://www.diodes.com/_files/datasheets/ds31737.pdf
 $ENDCMP
 #
