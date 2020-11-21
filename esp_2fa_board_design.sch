@@ -1420,9 +1420,9 @@ Connection ~ 3100 1150
 Wire Wire Line
 	3100 1150 3100 1300
 Text Notes 14850 2700 0    50   ~ 0
-HIGH - Charge complete state\nLOW - Charging state
-Text Notes 14350 3950 0    79   ~ 0
-I_REG = 1000/R_PROG\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
+ON - Charge complete state\nOFF- Charging state
+Text Notes 11550 4100 0    79   ~ 0
+I_charge = 1000/R_PROG\nI_charge = 1000/4700 = 213 mA\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
 Wire Wire Line
 	3950 8900 3950 9200
 Connection ~ 3950 9200
