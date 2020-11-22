@@ -849,13 +849,10 @@ Wire Wire Line
 	13000 6200 13250 6200
 Connection ~ 13250 6200
 Wire Wire Line
-	12000 5800 12550 5800
-Wire Wire Line
 	13000 6350 13000 6200
 Connection ~ 13000 6200
 Wire Wire Line
 	12550 6350 12550 5800
-Connection ~ 12550 5800
 Wire Wire Line
 	12550 5800 13000 5800
 Wire Wire Line
@@ -984,7 +981,7 @@ Wire Wire Line
 	3950 9200 3950 9400
 Wire Notes Line width 20 style dash_dot rgb(194, 24, 3)
 	11150 7700 11150 11150
-Text Label 12000 5800 0    50   ~ 0
+Text Label 11450 5800 0    50   ~ 0
 V_INPUT
 Wire Wire Line
 	12700 8800 13050 8800
@@ -1280,8 +1277,6 @@ Test points
 Wire Wire Line
 	8650 8700 8650 9300
 Wire Wire Line
-	12750 1550 12750 2150
-Wire Wire Line
 	9450 8700 9450 9300
 Wire Wire Line
 	10100 8700 10100 9300
@@ -1322,19 +1317,6 @@ Text Label 9450 9300 1    39   ~ 0
 LOAD_SWITCH_VCC
 Text Label 10100 9300 1    39   ~ 0
 V_INPUT
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 5FBB5A90
-P 12750 1350
-F 0 "J3" V 12812 1394 50  0000 L CNN
-F 1 "Conn_01x02_Male" V 12903 1394 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Horizontal" H 12750 1350 50  0001 C CNN
-F 3 "~" H 12750 1350 50  0001 C CNN
-	1    12750 1350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12650 1550 12650 2150
 Wire Wire Line
 	12450 2150 12650 2150
 Wire Wire Line
@@ -1422,7 +1404,7 @@ Wire Wire Line
 Text Notes 14850 2700 0    50   ~ 0
 ON - Charge complete state\nOFF- Charging state
 Text Notes 11550 4100 0    79   ~ 0
-I_REG = 1000/R_PROG\nI_REG = 1000/4700 = 213 mA\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
+I_charge = 1000/R_PROG\nI_charge = 1000/4700 = 213 mA\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
 Wire Wire Line
 	3950 8900 3950 9200
 Connection ~ 3950 9200
@@ -1519,4 +1501,35 @@ F 3 "" H 9050 9300 50  0001 C CNN
 	1    9050 9300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_DIP_x01 SW5
+U 1 1 5FBA599A
+P 12150 5800
+F 0 "SW5" H 12150 6067 50  0000 C CNN
+F 1 "POWER SWITCH" H 12150 5976 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 12150 5800 50  0001 C CNN
+F 3 "~" H 12150 5800 50  0001 C CNN
+	1    12150 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 5800 12550 5800
+Connection ~ 12550 5800
+Wire Wire Line
+	11850 5800 11450 5800
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5FBD9746
+P 12650 1100
+F 0 "J?" V 12588 912 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 12497 912 50  0000 R CNN
+F 2 "" H 12650 1100 50  0001 C CNN
+F 3 "~" H 12650 1100 50  0001 C CNN
+	1    12650 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12650 1300 12650 2150
+Wire Wire Line
+	12750 1300 12750 2150
 $EndSCHEMATC
