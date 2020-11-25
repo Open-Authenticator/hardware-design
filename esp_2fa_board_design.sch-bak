@@ -143,17 +143,6 @@ F 3 "~" H 4050 6550 50  0001 C CNN
 	1    4050 6350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L esp_2fa_board_design-rescue:Conn_01x06_Female-Connector J1
-U 1 1 5F48EBEC
-P 5000 1250
-F 0 "J1" H 4892 725 50  0000 C CNN
-F 1 "Conn_01x06_Female" H 4892 816 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 5000 1250 50  0001 C CNN
-F 3 "~" H 5000 1250 50  0001 C CNN
-	1    5000 1250
-	0    -1   -1   0   
-$EndComp
 Wire Notes Line width 20 style dash_dot rgb(194, 16, 4)
 	6050 550  6050 7700
 Wire Notes Line width 20 style dash_dot rgb(194, 19, 7)
@@ -333,19 +322,6 @@ Text Label 8050 6650 1    39   ~ 0
 IO21_SDA
 Text Notes 4550 2400 0    118  ~ 0
 Load Switch
-$Comp
-L esp_2fa_board_design-rescue:GND-power #PWR09
-U 1 1 5FA65CB2
-P 5300 1650
-F 0 "#PWR09" H 5300 1400 50  0001 C CNN
-F 1 "GND" H 5305 1477 50  0000 C CNN
-F 2 "" H 5300 1650 50  0001 C CNN
-F 3 "" H 5300 1650 50  0001 C CNN
-	1    5300 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 1450 5300 1650
 Wire Wire Line
 	2150 1500 2500 1500
 Text Label 2500 1500 0    39   ~ 0
@@ -355,12 +331,12 @@ Wire Wire Line
 Text Label 2500 1700 0    39   ~ 0
 RX
 Wire Wire Line
-	4900 1450 4900 1700
+	4950 1250 4950 1500
 Wire Wire Line
-	5000 1450 5000 1700
-Text Label 4900 1700 1    39   ~ 0
+	5050 1250 5050 1500
+Text Label 4950 1500 1    39   ~ 0
 TX
-Text Label 5000 1700 1    39   ~ 0
+Text Label 5050 1500 1    39   ~ 0
 RX
 Wire Wire Line
 	7600 2200 6750 2200
@@ -1031,9 +1007,6 @@ NoConn ~ 2150 3300
 NoConn ~ 2150 3400
 NoConn ~ 2150 3500
 NoConn ~ 2150 3600
-NoConn ~ 4800 1450
-NoConn ~ 5100 1450
-NoConn ~ 5200 1450
 NoConn ~ 8300 2500
 NoConn ~ 9300 2400
 NoConn ~ 9300 2100
@@ -1348,28 +1321,6 @@ Wire Wire Line
 Connection ~ 9950 2150
 Wire Wire Line
 	9950 2150 9950 2050
-$Comp
-L esp_2fa_board_design-rescue:C-Device C2
-U 1 1 5FC4D43F
-P 3300 1300
-F 0 "C2" H 3415 1346 50  0000 L CNN
-F 1 "0.1uF 50V" H 3415 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 1150 50  0001 C CNN
-F 3 "~" H 3300 1300 50  0001 C CNN
-	1    3300 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L esp_2fa_board_design-rescue:C-Device C1
-U 1 1 5FC52EFD
-P 3300 1000
-F 0 "C1" H 3415 1046 50  0000 L CNN
-F 1 "10uF 50V" H 3415 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 850 50  0001 C CNN
-F 3 "~" H 3300 1000 50  0001 C CNN
-	1    3300 1000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3150 1000 3100 1000
 Wire Wire Line
@@ -1518,12 +1469,12 @@ Connection ~ 12550 5800
 Wire Wire Line
 	11850 5800 11450 5800
 $Comp
-L Connector:Conn_01x02_Female J?
+L Connector:Conn_01x02_Female J3
 U 1 1 5FBD9746
 P 12650 1100
-F 0 "J?" V 12588 912 50  0000 R CNN
+F 0 "J3" V 12588 912 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 12497 912 50  0000 R CNN
-F 2 "" H 12650 1100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 12650 1100 50  0001 C CNN
 F 3 "~" H 12650 1100 50  0001 C CNN
 	1    12650 1100
 	0    -1   -1   0   
@@ -1532,4 +1483,37 @@ Wire Wire Line
 	12650 1300 12650 2150
 Wire Wire Line
 	12750 1300 12750 2150
+$Comp
+L esp_2fa_board_design-rescue:C-Device C2
+U 1 1 5FC4D43F
+P 3300 1300
+F 0 "C2" H 3415 1346 50  0000 L CNN
+F 1 "0.1uF 50V" H 3415 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 1150 50  0001 C CNN
+F 3 "~" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L esp_2fa_board_design-rescue:C-Device C1
+U 1 1 5FC52EFD
+P 3300 1000
+F 0 "C1" H 3415 1046 50  0000 L CNN
+F 1 "10uF 50V" H 3415 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3338 850 50  0001 C CNN
+F 3 "~" H 3300 1000 50  0001 C CNN
+	1    3300 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5FC16F81
+P 4950 1050
+F 0 "J1" V 4888 862 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 4797 862 50  0000 R CNN
+F 2 "" H 4950 1050 50  0001 C CNN
+F 3 "~" H 4950 1050 50  0001 C CNN
+	1    4950 1050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
