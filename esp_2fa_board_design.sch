@@ -828,7 +828,7 @@ Wire Wire Line
 	13000 6350 13000 6200
 Connection ~ 13000 6200
 Wire Wire Line
-	12550 6350 12550 5800
+	12550 6350 12550 6250
 Wire Wire Line
 	12550 5800 13000 5800
 Wire Wire Line
@@ -1516,4 +1516,27 @@ F 3 "~" H 4950 1050 50  0001 C CNN
 	1    4950 1050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L esp_2fa_board_design-rescue:C-Device C11
+U 1 1 5FC158D3
+P 12150 6500
+F 0 "C11" H 12265 6546 50  0000 L CNN
+F 1 "10uF 50V" H 12150 6400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 12188 6350 50  0001 C CNN
+F 3 "~" H 12150 6500 50  0001 C CNN
+	1    12150 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 6350 12150 6250
+Wire Wire Line
+	12150 6250 12550 6250
+Connection ~ 12550 6250
+Wire Wire Line
+	12550 6250 12550 5800
+Wire Wire Line
+	12150 6650 12150 6900
+Wire Wire Line
+	12150 6900 12550 6900
+Connection ~ 12550 6900
 $EndSCHEMATC

@@ -1511,7 +1511,7 @@ U 1 1 5FC16F81
 P 4950 1050
 F 0 "J1" V 4888 862 50  0000 R CNN
 F 1 "Conn_01x02_Female" V 4797 862 50  0000 R CNN
-F 2 "" H 4950 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 4950 1050 50  0001 C CNN
 F 3 "~" H 4950 1050 50  0001 C CNN
 	1    4950 1050
 	0    -1   -1   0   
