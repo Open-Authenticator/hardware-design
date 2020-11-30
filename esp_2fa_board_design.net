@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vedant/Programming/projects/esp-2fa/hardware_design/esp_2fa_board_design.sch)
-    (date "Sat Nov 28 00:49:51 2020")
+    (date "Mon Nov 30 20:10:24 2020")
     (tool "Eeschema 5.1.8-db9833491~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -389,7 +389,7 @@
       (tstamp 5FC52EFD))
     (comp (ref J1)
       (value Conn_01x02_Female)
-      (footprint Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x02_Female) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
