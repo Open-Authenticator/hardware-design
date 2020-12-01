@@ -2,6 +2,7 @@
 
 This repository contains hardware design files and datasheets for the open authenticator. This project is in development and is not ready for release.
 
+![](assets/open_authenticator.png)
 ## Features
 
 * Small form factor of 82mm x 42mm
