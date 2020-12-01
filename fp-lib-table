@@ -5,4 +5,5 @@
   (lib (name CDRH104RNP-150NC)(type Legacy)(uri "${KIPRJMOD}/ CDRH104RNP-inductor/CDRH104RNP-150NC.mod")(options "")(descr ""))
   (lib (name BU2032SM-BT-GTR)(type Legacy)(uri "${KIPRJMOD}/ BU2032SM-BT-GTR -coin-cell-holder/BU2032SM-BT-GTR.mod")(options "")(descr ""))
   (lib (name DMP2305U-7)(type Legacy)(uri ${KIPRJMOD}/DMP2305U/DMP2305U-7.mod)(options "")(descr ""))
+  (lib (name slide_switch_12D00)(type KiCad)(uri ${KIPRJMOD}/Slide_Switch_SS-12D00/slide_switch_12D00.pretty)(options "")(descr ""))
 )

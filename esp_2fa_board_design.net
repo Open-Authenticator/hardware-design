@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/vedant/Programming/projects/esp-2fa/hardware_design/esp_2fa_board_design.sch)
-    (date "Mon Nov 30 20:10:24 2020")
+    (date "Tue Dec  1 21:40:23 2020")
     (tool "Eeschema 5.1.8-db9833491~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -361,7 +361,7 @@
       (tstamp 5FC0B51C))
     (comp (ref SW5)
       (value "POWER SWITCH")
-      (footprint Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q)
+      (footprint slide_switch_12D00:Slide_Switch_SS-12D00)
       (datasheet ~)
       (libsource (lib Switch) (part SW_DIP_x01) (description "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"))
       (sheetpath (names /) (tstamps /))
