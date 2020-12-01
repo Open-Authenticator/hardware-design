@@ -34,3 +34,11 @@ bom/
 
 # Gerber export output
 out/
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
