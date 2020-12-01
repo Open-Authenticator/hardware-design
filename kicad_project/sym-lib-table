@@ -5,5 +5,5 @@
   (lib (name DMP2305U-7)(type Legacy)(uri ${KIPRJMOD}/component_libraries/DMP2305U-mosfet/DMP2305U-7.lib)(options "")(descr ""))
   (lib (name CDRH104RNP-150NC)(type Legacy)(uri ${KIPRJMOD}/component_libraries/CDRH104RNP-inductor/CDRH104RNP-150NC.lib)(options "")(descr ""))
   (lib (name BU2032SM-BT-GTR)(type Legacy)(uri ${KIPRJMOD}/component_libraries/BU2032SM-BT-GTR-coin-cell-holder/BU2032SM-BT-GTR.lib)(options "")(descr ""))
-  (lib (name esp_2fa_board_design-rescue)(type Legacy)(uri ${KIPRJMOD}/esp_2fa_board_design-rescue.lib)(options "")(descr ""))
+  (lib (name open_authenticator-rescue)(type Legacy)(uri ${KIPRJMOD}/open_authenticator-rescue.lib)(options "")(descr ""))
 )

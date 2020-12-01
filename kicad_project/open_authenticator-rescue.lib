@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power-esp_2fa_board_design-rescue
+# +3.3V-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF +3.3V-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
+F1 "+3.3V-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3V3-power-esp_2fa_board_design-rescue
+# +3V3-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF +3V3-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
+DEF +3V3-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3V3-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
+F1 "+3V3-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +BATT-power-esp_2fa_board_design-rescue
+# +BATT-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF +BATT-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
+DEF +BATT-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+BATT-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
+F1 "+BATT-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# 1N5819-Diode-esp_2fa_board_design-rescue
+# 1N5819-Diode-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF 1N5819-Diode-esp_2fa_board_design-rescue D 0 40 N N 1 F N
+DEF 1N5819-Diode-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "1N5819-Diode-esp_2fa_board_design-rescue" 0 -100 50 H V C CNN
+F1 "1N5819-Diode-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -65,11 +65,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Battery_Cell-Device-esp_2fa_board_design-rescue
+# Battery_Cell-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF Battery_Cell-Device-esp_2fa_board_design-rescue BT 0 0 N N 1 F N
+DEF Battery_Cell-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Battery_Cell-Device-esp_2fa_board_design-rescue" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -84,11 +84,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C-Device-esp_2fa_board_design-rescue
+# C-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF C-Device-esp_2fa_board_design-rescue C 0 10 N Y 1 F N
+DEF C-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device-esp_2fa_board_design-rescue" 25 -100 50 H V L CNN
+F1 "C-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -102,11 +102,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DS3231M-Timer_RTC-esp_2fa_board_design-rescue
+# DS3231M-Timer_RTC-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF DS3231M-Timer_RTC-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
+DEF DS3231M-Timer_RTC-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V R CNN
-F1 "DS3231M-Timer_RTC-esp_2fa_board_design-rescue" 400 350 50 H V R CNN
+F1 "DS3231M-Timer_RTC-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 400 350 50 H V R CNN
 F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 0 -600 50 H I C CNN
 F3 "" 270 50 50 H I C CNN
 $FPLIST
@@ -133,11 +133,11 @@ X GND 9 0 -400 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue
+# ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
+DEF ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue" 50 1350 50 H V L CNN
+F1 "ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -187,11 +187,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# GND-power-esp_2fa_board_design-rescue
+# GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF GND-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
+DEF GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power-esp_2fa_board_design-rescue" 0 -150 50 H V C CNN
+F1 "GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -200,11 +200,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# INDUCTOR-pspice-esp_2fa_board_design-rescue
+# INDUCTOR-pspice-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF INDUCTOR-pspice-esp_2fa_board_design-rescue L 0 0 N Y 1 F N
+DEF INDUCTOR-pspice-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "INDUCTOR-pspice-esp_2fa_board_design-rescue" 0 -50 50 H V C CNN
+F1 "INDUCTOR-pspice-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -217,11 +217,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LED-Device-esp_2fa_board_design-rescue
+# LED-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF LED-Device-esp_2fa_board_design-rescue D 0 40 N N 1 F N
+DEF LED-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device-esp_2fa_board_design-rescue" 0 -100 50 H V C CNN
+F1 "LED-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +240,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue
+# MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue U 0 40 Y Y 1 F N
+DEF MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue" 50 250 50 H V L CNN
+F1 "MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -260,11 +260,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# R_Small_US-Device-esp_2fa_board_design-rescue
+# R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF R_Small_US-Device-esp_2fa_board_design-rescue R 0 10 N N 1 F N
+DEF R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small_US-Device-esp_2fa_board_design-rescue" 30 -40 50 H V L CNN
+F1 "R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -278,11 +278,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push-Switch-esp_2fa_board_design-rescue
+# SW_Push-Switch-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF SW_Push-Switch-esp_2fa_board_design-rescue SW 0 40 N N 1 F N
+DEF SW_Push-Switch-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push-Switch-esp_2fa_board_design-rescue" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -295,11 +295,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# TPS63001-Regulator_Switching-esp_2fa_board_design-rescue
+# TPS63001-Regulator_Switching-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF TPS63001-Regulator_Switching-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
+DEF TPS63001-Regulator_Switching-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V L CNN
-F1 "TPS63001-Regulator_Switching-esp_2fa_board_design-rescue" 200 550 50 H V C CNN
+F1 "TPS63001-Regulator_Switching-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 200 550 50 H V C CNN
 F2 "Package_SON:Texas_DRC0010J_ThermalVias" 850 -550 50 H I C CNN
 F3 "" -300 550 50 H I C CNN
 $FPLIST
@@ -321,11 +321,11 @@ X GND 9 -100 -600 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# VBUS-power-esp_2fa_board_design-rescue
+# VBUS-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue
 #
-DEF VBUS-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
+DEF VBUS-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VBUS-power-esp_2fa_board_design-rescue" 0 150 50 H V C CNN
+F1 "VBUS-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
