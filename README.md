@@ -24,5 +24,5 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ### Back side
 
-![]((assets/open_authenticator_back.png))
+![](assets/open_authenticator_back.png))
 
