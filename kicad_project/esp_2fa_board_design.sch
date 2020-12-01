@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "ESP-2FA"
-Date "2020-11-12"
-Rev "v1.2"
+Title "Open Authenticator"
+Date "2020-11-29"
+Rev "v1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
