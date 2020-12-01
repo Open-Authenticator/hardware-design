@@ -23,7 +23,7 @@ Connection ~ 7950 2100
 Wire Wire Line
 	7600 1800 7800 1800
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R3
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R3
 U 1 1 5F4CFF15
 P 7950 1900
 F 0 "R3" H 8018 1946 50  0000 L CNN
@@ -34,7 +34,7 @@ F 3 "~" H 7950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R2
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R2
 U 1 1 5F4ADDF7
 P 7600 1900
 F 0 "R2" H 7668 1946 50  0000 L CNN
@@ -45,7 +45,7 @@ F 3 "~" H 7600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:Battery_Cell-Device BT1
+L esp_2fa_board_design-rescue:Battery_Cell-Device-esp_2fa_board_design-rescue BT1
 U 1 1 5F4A3DD6
 P 9950 1950
 F 0 "BT1" H 10068 2046 50  0000 L CNN
@@ -67,7 +67,7 @@ F 3 "" H 8500 6000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R6
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R6
 U 1 1 5F53429C
 P 1500 5650
 F 0 "R6" H 1568 5696 50  0000 L CNN
@@ -78,7 +78,7 @@ F 3 "~" H 1500 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C3
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C3
 U 1 1 5F51DDB7
 P 2950 6350
 F 0 "C3" H 3065 6396 50  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "~" H 2950 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R5
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R5
 U 1 1 5F51D558
 P 2950 5650
 F 0 "R5" H 3018 5696 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 2950 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:SW_Push-Switch SW3
+L esp_2fa_board_design-rescue:SW_Push-Switch-esp_2fa_board_design-rescue SW3
 U 1 1 5F51CD78
 P 1500 6350
 F 0 "SW3" V 1546 6302 50  0000 R CNN
@@ -111,7 +111,7 @@ F 3 "~" H 1500 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:SW_Push-Switch SW4
+L esp_2fa_board_design-rescue:SW_Push-Switch-esp_2fa_board_design-rescue SW4
 U 1 1 5F51C3FE
 P 2450 6350
 F 0 "SW4" V 2496 6302 50  0000 R CNN
@@ -122,7 +122,7 @@ F 3 "~" H 2450 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:SW_Push-Switch SW2
+L esp_2fa_board_design-rescue:SW_Push-Switch-esp_2fa_board_design-rescue SW2
 U 1 1 5F4CEA61
 P 4900 6350
 F 0 "SW2" V 4946 6302 50  0000 R CNN
@@ -133,7 +133,7 @@ F 3 "~" H 4900 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:SW_Push-Switch SW1
+L esp_2fa_board_design-rescue:SW_Push-Switch-esp_2fa_board_design-rescue SW1
 U 1 1 5F4CE082
 P 4050 6350
 F 0 "SW1" V 4096 6302 50  0000 R CNN
@@ -152,7 +152,7 @@ Wire Notes Line width 20 style dash_dot rgb(194, 19, 7)
 Text Notes 1650 700  0    118  ~ 0
 Microcontroller 
 $Comp
-L esp_2fa_board_design-rescue:ESP32-WROOM-32-RF_Module U1
+L esp_2fa_board_design-rescue:ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue U1
 U 1 1 5F47FF30
 P 1550 2600
 F 0 "U1" H 1250 3950 50  0000 C CNN
@@ -180,7 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 6500 2950 6550
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR02
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR02
 U 1 1 5FA35009
 P 1500 6550
 F 0 "#PWR02" H 1500 6300 50  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 1500 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR03
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR03
 U 1 1 5FA354B2
 P 2700 6550
 F 0 "#PWR03" H 2700 6300 50  0001 C CNN
@@ -205,7 +205,7 @@ Connection ~ 2700 6550
 Wire Wire Line
 	2700 6550 2450 6550
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR05
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR05
 U 1 1 5FA372C5
 P 4050 6550
 F 0 "#PWR05" H 4050 6300 50  0001 C CNN
@@ -216,7 +216,7 @@ F 3 "" H 4050 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR06
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR06
 U 1 1 5FA37B4B
 P 4900 6550
 F 0 "#PWR06" H 4900 6300 50  0001 C CNN
@@ -262,7 +262,7 @@ BOOT
 Wire Wire Line
 	2950 5750 2950 5950
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR01
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR01
 U 1 1 5FA4DEE1
 P 1500 5550
 F 0 "#PWR01" H 1500 5400 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 1500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR04
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR04
 U 1 1 5FA4EA69
 P 2950 5550
 F 0 "#PWR04" H 2950 5400 50  0001 C CNN
@@ -351,7 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2100 7950 2100
 $Comp
-L esp_2fa_board_design-rescue:DS3231M-Timer_RTC U2
+L esp_2fa_board_design-rescue:DS3231M-Timer_RTC-esp_2fa_board_design-rescue U2
 U 1 1 5F483644
 P 8800 2300
 F 0 "U2" H 8800 1811 50  0000 C CNN
@@ -396,7 +396,7 @@ Wire Notes Line width 20 style dash_dot rgb(194, 10, 3)
 Text Notes 12600 800  0    118  ~ 0
 LIPO Charging Section
 $Comp
-L esp_2fa_board_design-rescue:MCP73831-2-OT-Battery_Management U3
+L esp_2fa_board_design-rescue:MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue U3
 U 1 1 5F9F883F
 P 14050 2300
 F 0 "U3" H 14050 2781 50  0000 C CNN
@@ -407,7 +407,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 13900 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R8
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R8
 U 1 1 5F9F9B3C
 P 14750 2400
 F 0 "R8" V 14650 2400 50  0000 C CNN
@@ -418,7 +418,7 @@ F 3 "~" H 14750 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C4
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C4
 U 1 1 5F9F9CE0
 P 14550 2800
 F 0 "C4" V 14298 2800 50  0000 C CNN
@@ -429,7 +429,7 @@ F 3 "~" H 14550 2800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:LED-Device D2
+L esp_2fa_board_design-rescue:LED-Device-esp_2fa_board_design-rescue D2
 U 1 1 5F9FA2B3
 P 15200 2400
 F 0 "D2" H 15193 2617 50  0000 C CNN
@@ -440,7 +440,7 @@ F 3 "~" H 15200 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+BATT-power #PWR020
+L esp_2fa_board_design-rescue:+BATT-power-esp_2fa_board_design-rescue #PWR020
 U 1 1 5F9FE960
 P 14900 1600
 F 0 "#PWR020" H 14900 1450 50  0001 C CNN
@@ -451,7 +451,7 @@ F 3 "" H 14900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR017
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR017
 U 1 1 5F9FF9DE
 P 1550 4000
 F 0 "#PWR017" H 1550 3750 50  0001 C CNN
@@ -462,7 +462,7 @@ F 3 "" H 1550 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR016
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR016
 U 1 1 5F9FF326
 P 1550 1050
 F 0 "#PWR016" H 1550 900 50  0001 C CNN
@@ -473,7 +473,7 @@ F 3 "" H 1550 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:VBUS-power #PWR018
+L esp_2fa_board_design-rescue:VBUS-power-esp_2fa_board_design-rescue #PWR018
 U 1 1 5FA07FD7
 P 14050 1600
 F 0 "#PWR018" H 14050 1450 50  0001 C CNN
@@ -486,7 +486,7 @@ $EndComp
 Wire Wire Line
 	14050 1600 14050 2000
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR019
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR019
 U 1 1 5FA0A10D
 P 14050 3400
 F 0 "#PWR019" H 14050 3150 50  0001 C CNN
@@ -501,7 +501,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 2400 15050 2400
 $Comp
-L esp_2fa_board_design-rescue:VBUS-power #PWR021
+L esp_2fa_board_design-rescue:VBUS-power-esp_2fa_board_design-rescue #PWR021
 U 1 1 5FA11D46
 P 15550 1600
 F 0 "#PWR021" H 15550 1450 50  0001 C CNN
@@ -540,7 +540,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 3050 14050 3050
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R9
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R9
 U 1 1 5FA380F4
 P 11850 1650
 F 0 "R9" V 11750 1650 50  0000 C CNN
@@ -551,7 +551,7 @@ F 3 "~" H 11850 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R10
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R10
 U 1 1 5FA3DF94
 P 11850 2350
 F 0 "R10" V 11750 2350 50  0000 C CNN
@@ -562,7 +562,7 @@ F 3 "~" H 11850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+BATT-power #PWR022
+L esp_2fa_board_design-rescue:+BATT-power-esp_2fa_board_design-rescue #PWR022
 U 1 1 5FA3E731
 P 11850 1300
 F 0 "#PWR022" H 11850 1150 50  0001 C CNN
@@ -579,7 +579,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 3050 14050 3400
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR023
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR023
 U 1 1 5FA47CE6
 P 11850 3100
 F 0 "#PWR023" H 11850 2850 50  0001 C CNN
@@ -607,7 +607,7 @@ Power Section
 Text Notes 2550 8000 0    118  ~ 0
 USB Port
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR08
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR08
 U 1 1 5FAD315F
 P 8800 3500
 F 0 "#PWR08" H 8800 3250 50  0001 C CNN
@@ -619,7 +619,7 @@ F 3 "" H 8800 3500 50  0001 C CNN
 $EndComp
 Connection ~ 8800 3100
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR010
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR010
 U 1 1 5FAD86D4
 P 8900 6550
 F 0 "#PWR010" H 8900 6300 50  0001 C CNN
@@ -664,7 +664,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS22919DCKR?qs=b
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C5
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C5
 U 1 1 5FACB5CB
 P 4500 3150
 F 0 "C5" V 4750 3150 50  0000 C CNN
@@ -675,7 +675,7 @@ F 3 "~" H 4500 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR012
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR012
 U 1 1 5FAD54B5
 P 4500 3600
 F 0 "#PWR012" H 4500 3350 50  0001 C CNN
@@ -686,7 +686,7 @@ F 3 "" H 4500 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR011
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR011
 U 1 1 5FAD4BE1
 P 4500 2750
 F 0 "#PWR011" H 4500 2600 50  0001 C CNN
@@ -721,7 +721,7 @@ Wire Wire Line
 	4500 3300 4500 3400
 Connection ~ 4500 3400
 $Comp
-L esp_2fa_board_design-rescue:TPS63001-Regulator_Switching U4
+L esp_2fa_board_design-rescue:TPS63001-Regulator_Switching-esp_2fa_board_design-rescue U4
 U 1 1 5FAC38D8
 P 13650 6000
 F 0 "U4" H 13650 6667 50  0000 C CNN
@@ -732,7 +732,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 13350 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C6
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C6
 U 1 1 5FACDAC9
 P 12550 6500
 F 0 "C6" H 12665 6546 50  0000 L CNN
@@ -743,7 +743,7 @@ F 3 "~" H 12550 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C7
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C7
 U 1 1 5FACE9C1
 P 13000 6500
 F 0 "C7" H 13115 6546 50  0000 L CNN
@@ -754,7 +754,7 @@ F 3 "~" H 13000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C8
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C8
 U 1 1 5FACEDF9
 P 14300 6500
 F 0 "C8" H 14415 6546 50  0000 L CNN
@@ -765,7 +765,7 @@ F 3 "~" H 14300 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C9
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C9
 U 1 1 5FACF6AF
 P 14750 6500
 F 0 "C9" H 14865 6546 50  0000 L CNN
@@ -776,7 +776,7 @@ F 3 "~" H 14750 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R1
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R1
 U 1 1 5FAD063A
 P 13000 6000
 F 0 "R1" H 13068 6046 50  0000 L CNN
@@ -787,7 +787,7 @@ F 3 "~" H 13000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:INDUCTOR-pspice L1
+L esp_2fa_board_design-rescue:INDUCTOR-pspice-esp_2fa_board_design-rescue L1
 U 1 1 5FAD1EA6
 P 13600 5150
 F 0 "L1" H 13600 5365 50  0000 C CNN
@@ -871,7 +871,7 @@ Wire Wire Line
 	14750 6900 14300 6900
 Connection ~ 14300 6900
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR014
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR014
 U 1 1 5FB31693
 P 13550 7050
 F 0 "#PWR014" H 13550 6800 50  0001 C CNN
@@ -884,7 +884,7 @@ $EndComp
 Wire Wire Line
 	13550 7050 13550 6900
 $Comp
-L esp_2fa_board_design-rescue:+3V3-power #PWR015
+L esp_2fa_board_design-rescue:+3V3-power-esp_2fa_board_design-rescue #PWR015
 U 1 1 5FB3E24E
 P 15300 5800
 F 0 "#PWR015" H 15300 5650 50  0001 C CNN
@@ -897,7 +897,7 @@ $EndComp
 Wire Notes Line width 20 style dash_dot rgb(194, 7, 0)
 	6050 7700 6050 11150
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR024
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR024
 U 1 1 5FB64F2A
 P 2600 9400
 F 0 "#PWR024" H 2600 9150 50  0001 C CNN
@@ -908,7 +908,7 @@ F 3 "" H 2600 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R11
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R11
 U 1 1 5FB6BF47
 P 3700 8900
 F 0 "R11" V 3495 8900 50  0000 C CNN
@@ -919,7 +919,7 @@ F 3 "~" H 3700 8900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR025
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR025
 U 1 1 5FB7EC2E
 P 3950 9400
 F 0 "#PWR025" H 3950 9150 50  0001 C CNN
@@ -930,7 +930,7 @@ F 3 "" H 3950 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:VBUS-power #PWR026
+L esp_2fa_board_design-rescue:VBUS-power-esp_2fa_board_design-rescue #PWR026
 U 1 1 5FB99C8D
 P 3300 8600
 F 0 "#PWR026" H 3300 8450 50  0001 C CNN
@@ -941,7 +941,7 @@ F 3 "" H 3300 8600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R12
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R12
 U 1 1 5FBD3EE2
 P 3700 9200
 F 0 "R12" V 3495 9200 50  0000 C CNN
@@ -962,7 +962,7 @@ V_INPUT
 Wire Wire Line
 	12700 8800 13050 8800
 $Comp
-L esp_2fa_board_design-rescue:VBUS-power #PWR07
+L esp_2fa_board_design-rescue:VBUS-power-esp_2fa_board_design-rescue #PWR07
 U 1 1 5FC1E649
 P 12700 8800
 F 0 "#PWR07" H 12700 8650 50  0001 C CNN
@@ -973,7 +973,7 @@ F 3 "" H 12700 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+BATT-power #PWR013
+L esp_2fa_board_design-rescue:+BATT-power-esp_2fa_board_design-rescue #PWR013
 U 1 1 5FC253A3
 P 14050 7900
 F 0 "#PWR013" H 14050 7750 50  0001 C CNN
@@ -1011,7 +1011,7 @@ NoConn ~ 8300 2500
 NoConn ~ 9300 2400
 NoConn ~ 9300 2100
 $Comp
-L esp_2fa_board_design-rescue:1N5819-Diode D3
+L esp_2fa_board_design-rescue:1N5819-Diode-esp_2fa_board_design-rescue D3
 U 1 1 5FD00A97
 P 13700 8800
 F 0 "D3" H 13700 8583 50  0000 C CNN
@@ -1022,7 +1022,7 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 13700 8800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R13
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R13
 U 1 1 5FD01B8F
 P 13050 9250
 F 0 "R13" H 13118 9296 50  0000 L CNN
@@ -1036,7 +1036,7 @@ Connection ~ 13050 8800
 Wire Wire Line
 	13050 8800 13550 8800
 $Comp
-L esp_2fa_board_design-rescue:GND-power #PWR027
+L esp_2fa_board_design-rescue:GND-power-esp_2fa_board_design-rescue #PWR027
 U 1 1 5FD10759
 P 13050 9550
 F 0 "#PWR027" H 13050 9300 50  0001 C CNN
@@ -1051,7 +1051,7 @@ Wire Wire Line
 Wire Wire Line
 	14050 8000 14050 7900
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R7
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R7
 U 1 1 5F9F986A
 P 13250 2650
 F 0 "R7" V 13150 2650 50  0000 C CNN
@@ -1128,7 +1128,7 @@ F 11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2305U-7?qs=o
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R4
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R4
 U 1 1 5FB7C439
 P 4050 5650
 F 0 "R4" H 4118 5696 50  0000 L CNN
@@ -1139,7 +1139,7 @@ F 3 "~" H 4050 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:R_Small_US-Device R14
+L esp_2fa_board_design-rescue:R_Small_US-Device-esp_2fa_board_design-rescue R14
 U 1 1 5FB7C8DA
 P 4900 5650
 F 0 "R14" H 4968 5696 50  0000 L CNN
@@ -1150,7 +1150,7 @@ F 3 "~" H 4900 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR028
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR028
 U 1 1 5FB81EE2
 P 4050 5550
 F 0 "#PWR028" H 4050 5400 50  0001 C CNN
@@ -1161,7 +1161,7 @@ F 3 "" H 4050 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:+3.3V-power #PWR029
+L esp_2fa_board_design-rescue:+3.3V-power-esp_2fa_board_design-rescue #PWR029
 U 1 1 5FB822F3
 P 4900 5550
 F 0 "#PWR029" H 4900 5400 50  0001 C CNN
@@ -1297,7 +1297,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 3500 8800 3100
 $Comp
-L esp_2fa_board_design-rescue:C-Device C10
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C10
 U 1 1 5FC17CE1
 P 9550 1900
 F 0 "C10" H 9665 1946 50  0000 L CNN
@@ -1484,7 +1484,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 1300 12750 2150
 $Comp
-L esp_2fa_board_design-rescue:C-Device C2
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C2
 U 1 1 5FC4D43F
 P 3300 1300
 F 0 "C2" H 3415 1346 50  0000 L CNN
@@ -1495,7 +1495,7 @@ F 3 "~" H 3300 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C1
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C1
 U 1 1 5FC52EFD
 P 3300 1000
 F 0 "C1" H 3415 1046 50  0000 L CNN
@@ -1517,7 +1517,7 @@ F 3 "~" H 4950 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp_2fa_board_design-rescue:C-Device C11
+L esp_2fa_board_design-rescue:C-Device-esp_2fa_board_design-rescue C11
 U 1 1 5FC158D3
 P 12150 6500
 F 0 "C11" H 12265 6546 50  0000 L CNN

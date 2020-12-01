@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# +3.3V-power
+# +3.3V-power-esp_2fa_board_design-rescue
 #
-DEF +3.3V-power #PWR 0 0 Y Y 1 F P
+DEF +3.3V-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3.3V-power" 0 140 50 H V C CNN
+F1 "+3.3V-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +3V3-power
+# +3V3-power-esp_2fa_board_design-rescue
 #
-DEF +3V3-power #PWR 0 0 Y Y 1 F P
+DEF +3V3-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+3V3-power" 0 140 50 H V C CNN
+F1 "+3V3-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# +BATT-power
+# +BATT-power-esp_2fa_board_design-rescue
 #
-DEF +BATT-power #PWR 0 0 Y Y 1 F P
+DEF +BATT-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "+BATT-power" 0 140 50 H V C CNN
+F1 "+BATT-power-esp_2fa_board_design-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,30 +46,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# 1N4148-Diode
+# 1N5819-Diode-esp_2fa_board_design-rescue
 #
-DEF 1N4148-Diode D 0 40 N N 1 F N
+DEF 1N5819-Diode-esp_2fa_board_design-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "1N4148-Diode" 0 -100 50 H V C CNN
-F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- D*DO?35*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 1N5819-Diode
-#
-DEF 1N5819-Diode D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "1N5819-Diode" 0 -100 50 H V C CNN
+F1 "1N5819-Diode-esp_2fa_board_design-rescue" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -84,11 +65,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Battery_Cell-Device
+# Battery_Cell-Device-esp_2fa_board_design-rescue
 #
-DEF Battery_Cell-Device BT 0 0 N N 1 F N
+DEF Battery_Cell-Device-esp_2fa_board_design-rescue BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Battery_Cell-Device" 100 0 50 H V L CNN
+F1 "Battery_Cell-Device-esp_2fa_board_design-rescue" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -103,11 +84,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C-Device
+# C-Device-esp_2fa_board_design-rescue
 #
-DEF C-Device C 0 10 N Y 1 F N
+DEF C-Device-esp_2fa_board_design-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device" 25 -100 50 H V L CNN
+F1 "C-Device-esp_2fa_board_design-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,43 +102,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x06_Female-Connector
+# DS3231M-Timer_RTC-esp_2fa_board_design-rescue
 #
-DEF Conn_01x06_Female-Connector J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Conn_01x06_Female-Connector" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-A 0 200 20 901 -901 1 1 6 N 0 220 0 180
-P 2 1 1 6 -50 -300 -20 -300 N
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-P 2 1 1 6 -50 200 -20 200 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# DS3231M-Timer_RTC
-#
-DEF DS3231M-Timer_RTC U 0 20 Y Y 1 F N
+DEF DS3231M-Timer_RTC-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V R CNN
-F1 "DS3231M-Timer_RTC" 400 350 50 H V R CNN
+F1 "DS3231M-Timer_RTC-esp_2fa_board_design-rescue" 400 350 50 H V R CNN
 F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 0 -600 50 H I C CNN
 F3 "" 270 50 50 H I C CNN
 $FPLIST
@@ -184,11 +133,11 @@ X GND 9 0 -400 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# ESP32-WROOM-32-RF_Module
+# ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue
 #
-DEF ESP32-WROOM-32-RF_Module U 0 20 Y Y 1 F N
+DEF ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "ESP32-WROOM-32-RF_Module" 50 1350 50 H V L CNN
+F1 "ESP32-WROOM-32-RF_Module-esp_2fa_board_design-rescue" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -238,11 +187,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# GND-power
+# GND-power-esp_2fa_board_design-rescue
 #
-DEF GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power" 0 -150 50 H V C CNN
+F1 "GND-power-esp_2fa_board_design-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -251,11 +200,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# INDUCTOR-pspice
+# INDUCTOR-pspice-esp_2fa_board_design-rescue
 #
-DEF INDUCTOR-pspice L 0 0 N Y 1 F N
+DEF INDUCTOR-pspice-esp_2fa_board_design-rescue L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "INDUCTOR-pspice" 0 -50 50 H V C CNN
+F1 "INDUCTOR-pspice-esp_2fa_board_design-rescue" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -268,11 +217,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LED-Device
+# LED-Device-esp_2fa_board_design-rescue
 #
-DEF LED-Device D 0 40 N N 1 F N
+DEF LED-Device-esp_2fa_board_design-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device-esp_2fa_board_design-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -291,23 +240,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Logo_Open_Hardware_Large-Graphic
+# MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue
 #
-DEF Logo_Open_Hardware_Large-Graphic #LOGO 0 40 Y Y 1 F N
-F0 "#LOGO" 0 500 50 H I C CNN
-F1 "Logo_Open_Hardware_Large-Graphic" 0 -400 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 277 1 1 0 265 -343 261 -341 250 -334 236 -325 218 -313 201 -301 187 -292 177 -285 173 -283 170 -284 162 -288 150 -294 143 -298 132 -302 127 -303 126 -302 122 -294 116 -279 107 -260 98 -238 88 -214 77 -190 68 -166 59 -145 52 -128 48 -116 46 -111 47 -110 52 -105 62 -98 82 -81 103 -55 115 -26 120 6 116 36 104 64 84 90 60 109 32 121 0 125 -30 122 -59 110 -85 90 -96 78 -111 52 -120 24 -121 17 -119 -14 -110 -43 -94 -69 -72 -91 -69 -93 -58 -101 -51 -106 -46 -111 -85 -205 -91 -220 -102 -246 -111 -268 -119 -286 -124 -298 -127 -302 -127 -303 -130 -303 -137 -301 -151 -294 -159 -290 -169 -285 -174 -283 -178 -285 -187 -291 -201 -301 -218 -312 -234 -323 -249 -333 -260 -340 -265 -343 -266 -343 -270 -340 -279 -333 -292 -321 -310 -303 -313 -300 -328 -285 -340 -272 -348 -263 -351 -259 -351 -259 -348 -254 -341 -243 -332 -228 -320 -211 -288 -165 -306 -122 -311 -109 -318 -93 -323 -82 -325 -77 -330 -75 -341 -73 -358 -69 -379 -65 -398 -62 -415 -58 -428 -56 -434 -55 -435 -54 -436 -51 -437 -45 -437 -35 -438 -18 -438 6 -438 9 -437 32 -437 50 -436 61 -436 66 -436 66 -430 67 -418 70 -400 73 -380 77 -378 78 -358 82 -340 85 -328 88 -323 90 -322 91 -318 99 -312 112 -305 128 -298 144 -292 159 -288 170 -287 175 -287 175 -290 180 -297 190 -307 205 -320 223 -320 224 -332 242 -342 257 -348 267 -351 272 -351 272 -347 277 -338 287 -325 301 -310 316 -305 321 -288 338 -276 349 -269 354 -265 356 -265 356 -260 352 -249 345 -234 335 -216 323 -215 322 -197 310 -183 300 -172 293 -168 291 -167 291 -160 293 -147 297 -132 303 -116 310 -101 316 -90 321 -85 324 -85 324 -83 330 -80 343 -76 361 -72 383 -71 386 -67 407 -64 424 -62 436 -60 441 -57 442 -47 443 -32 443 -13 443 6 443 26 443 42 442 54 441 59 440 59 440 61 434 64 421 67 402 72 381 72 377 76 356 80 339 82 327 84 323 85 322 94 318 108 312 125 305 165 289 215 323 219 326 237 338 251 348 261 354 266 356 266 356 271 352 281 343 294 330 309 314 321 303 334 289 343 280 348 274 349 270 349 268 346 263 339 252 328 237 316 220 307 205 296 189 289 177 287 171 287 169 291 159 296 145 304 127 321 88 346 83 362 81 384 76 404 72 437 66 438 -52 433 -54 428 -55 416 -58 399 -61 379 -65 362 -68 344 -72 332 -74 326 -75 325 -77 321 -85 314 -99 308 -115 301 -131 295 -147 290 -158 289 -165 291 -169 298 -179 307 -194 319 -211 331 -228 341 -243 347 -253 350 -258 349 -262 342 -270 329 -283 310 -302 307 -305 291 -320 278 -332 269 -340 265 -343 F
-ENDDRAW
-ENDDEF
-#
-# MCP73831-2-OT-Battery_Management
-#
-DEF MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
+DEF MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
+F1 "MCP73831-2-OT-Battery_Management-esp_2fa_board_design-rescue" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -323,11 +260,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# R_Small_US-Device
+# R_Small_US-Device-esp_2fa_board_design-rescue
 #
-DEF R_Small_US-Device R 0 10 N N 1 F N
+DEF R_Small_US-Device-esp_2fa_board_design-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small_US-Device" 30 -40 50 H V L CNN
+F1 "R_Small_US-Device-esp_2fa_board_design-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -341,11 +278,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_Push-Switch
+# SW_Push-Switch-esp_2fa_board_design-rescue
 #
-DEF SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch-esp_2fa_board_design-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch-esp_2fa_board_design-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -358,11 +295,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# TPS63001-Regulator_Switching
+# TPS63001-Regulator_Switching-esp_2fa_board_design-rescue
 #
-DEF TPS63001-Regulator_Switching U 0 20 Y Y 1 F N
+DEF TPS63001-Regulator_Switching-esp_2fa_board_design-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 550 50 H V L CNN
-F1 "TPS63001-Regulator_Switching" 200 550 50 H V C CNN
+F1 "TPS63001-Regulator_Switching-esp_2fa_board_design-rescue" 200 550 50 H V C CNN
 F2 "Package_SON:Texas_DRC0010J_ThermalVias" 850 -550 50 H I C CNN
 F3 "" -300 550 50 H I C CNN
 $FPLIST
@@ -384,69 +321,11 @@ X GND 9 -100 -600 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# USB_C_Receptacle_USB2.0-Connector
+# VBUS-power-esp_2fa_board_design-rescue
 #
-DEF USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
-F0 "J" -400 750 50 H V L CNN
-F1 "USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
-F2 "" 150 0 50 H I C CNN
-F3 "" 150 0 50 H I C CNN
-$FPLIST
- USB*C*Receptacle*
-$ENDFPLIST
-DRAW
-A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
-A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
-A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
-A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
-A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
-A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
-C -100 45 25 0 1 10 F
-C 0 -230 50 0 1 0 F
-S -10 -700 10 -660 0 0 0 N
-S 400 -590 360 -610 0 0 0 N
-S 400 -490 360 -510 0 0 0 N
-S 400 -190 360 -210 0 0 0 N
-S 400 -90 360 -110 0 0 0 N
-S 400 10 360 -10 0 0 0 N
-S 400 110 360 90 0 0 0 N
-S 400 310 360 290 0 0 0 N
-S 400 410 360 390 0 0 0 N
-S 400 610 360 590 0 0 0 N
-S -400 700 400 -700 0 1 10 f
-S -300 -150 -250 150 0 1 10 F
-S 75 70 125 120 0 1 10 F
-P 2 0 1 20 -350 -150 -350 150 N
-P 2 0 1 20 -200 150 -200 -150 N
-P 2 0 1 20 0 -230 0 170 N
-P 3 0 1 20 0 -130 -100 -30 -100 20 N
-P 3 0 1 20 0 -80 100 20 100 70 N
-P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
-X GND A1 0 -900 200 U 50 50 1 1 W
-X GND A12 0 -900 200 U 50 50 1 1 P N
-X VBUS A4 600 600 200 L 50 50 1 1 W
-X CC1 A5 600 400 200 L 50 50 1 1 B
-X D+ A6 600 -100 200 L 50 50 1 1 B
-X D- A7 600 100 200 L 50 50 1 1 B
-X SBU1 A8 600 -500 200 L 50 50 1 1 B
-X VBUS A9 600 600 200 L 50 50 1 1 P N
-X GND B1 0 -900 200 U 50 50 1 1 P N
-X GND B12 0 -900 200 U 50 50 1 1 P N
-X VBUS B4 600 600 200 L 50 50 1 1 P N
-X CC2 B5 600 300 200 L 50 50 1 1 B
-X D+ B6 600 -200 200 L 50 50 1 1 B
-X D- B7 600 0 200 L 50 50 1 1 B
-X SBU2 B8 600 -600 200 L 50 50 1 1 B
-X VBUS B9 600 600 200 L 50 50 1 1 P N
-X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# VBUS-power
-#
-DEF VBUS-power #PWR 0 0 Y Y 1 F P
+DEF VBUS-power-esp_2fa_board_design-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VBUS-power" 0 150 50 H V C CNN
+F1 "VBUS-power-esp_2fa_board_design-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
