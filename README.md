@@ -2,6 +2,8 @@
 
 This repository contains hardware design files and datasheets for the open authenticator. This project is in development and is not ready for release.
 
+<a href="https://oshpark.com/shared_projects/kZuvm8FV"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+
 ![](/assets/open_authenticator.png)
 
 ## Features
