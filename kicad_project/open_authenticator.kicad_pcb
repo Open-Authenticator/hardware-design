@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 25)
+    (drawings 27)
     (tracks 612)
     (zones 0)
     (modules 67)
@@ -295,7 +295,7 @@
     (tags resistor)
     (path /5F4ADDF7)
     (attr smd)
-    (fp_text reference R2 (at -2.325 -0.05 90) (layer F.SilkS)
+    (fp_text reference R2 (at 0.00264 1.42892 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 4.7k (at 0 -1.4 90) (layer F.Fab) hide
@@ -2147,7 +2147,7 @@
     (tags capacitor)
     (path /5FC52EFD)
     (attr smd)
-    (fp_text reference C1 (at -3.0198 -0.5234 180) (layer F.SilkS)
+    (fp_text reference C1 (at -2.95122 -1.40732 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "10uF 50V" (at 0 1.85 90) (layer F.Fab) hide
@@ -2619,7 +2619,7 @@
     (tags Inductor)
     (path /5FAD1EA6)
     (attr smd)
-    (fp_text reference L1 (at 8.677 -0.1682) (layer F.SilkS)
+    (fp_text reference L1 (at 8.64144 0.68524) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_text value "2.2 uH" (at 0 0) (layer F.SilkS) hide
@@ -2652,7 +2652,7 @@
     (tags "MOSFET (P-Channel)")
     (path /5FB76610)
     (attr smd)
-    (fp_text reference Q1 (at -1.8 2.7) (layer F.SilkS)
+    (fp_text reference Q1 (at -3.048 0) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (fp_text value DMP2305U-7 (at 0 0) (layer F.SilkS) hide
@@ -3015,7 +3015,7 @@
     (tags resistor)
     (path /5FB6BF47)
     (attr smd)
-    (fp_text reference R11 (at 2.79604 0.00254) (layer F.SilkS)
+    (fp_text reference R11 (at 0 -1.29032) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 5.1k (at 0 1.43) (layer F.Fab) hide
@@ -3051,7 +3051,7 @@
     (tags resistor)
     (path /5FBD3EE2)
     (attr smd)
-    (fp_text reference R12 (at 2.7954 0.0063) (layer F.SilkS)
+    (fp_text reference R12 (at 0.0014 1.37536) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 5.1k (at 0 1.43) (layer F.Fab) hide
@@ -3087,7 +3087,7 @@
     (tags resistor)
     (path /5FD01B8F)
     (attr smd)
-    (fp_text reference R13 (at 0.025 1.4 180) (layer F.SilkS)
+    (fp_text reference R13 (at -2.8951 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 1.43) (layer F.Fab) hide
@@ -3658,6 +3658,12 @@
     )
   )
 
+  (gr_text ON (at 168.3258 111.506) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (gr_text OFF (at 168.20134 101.27996) (layer F.SilkS) (tstamp 60036056)
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
   (dimension 82 (width 0.15) (layer Dwgs.User)
     (gr_text "82.000 mm" (at 131 125.4044) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3717,7 +3723,7 @@
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
   (gr_circle (center 134.3914 84.963) (end 134.3914 84.763) (layer F.SilkS) (width 0.15))
-  (gr_circle (center 133.25 101.9) (end 133.532843 101.9) (layer F.SilkS) (width 0.15) (tstamp 5FBB0E98))
+  (gr_circle (center 133.3627 101.51618) (end 133.52874 101.49304) (layer F.SilkS) (width 0.15) (tstamp 5FBB0E98))
   (gr_circle (center 104.01046 108.16336) (end 104.21814 108.04382) (layer F.SilkS) (width 0.15))
   (gr_text "v1.3 Vedant Paranjape" (at 101.65 84.9) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
