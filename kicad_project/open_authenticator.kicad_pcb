@@ -490,6 +490,11 @@
       (net 56 "Net-(C14-Pad2)"))
     (pad 1 smd rect (at -2.15 0 90) (size 1.55 2.35) (layers F.Cu F.Paste F.Mask)
       (net 4 /LOAD_SWITCH_VCC))
+    (model ${KIPRJMOD}/component_libraries/SS14/SS14.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitor_SMD:C_1206_3216Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6001FF02)
