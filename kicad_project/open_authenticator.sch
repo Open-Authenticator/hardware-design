@@ -50,21 +50,10 @@ U 1 1 5F4A3DD6
 P 9950 1950
 F 0 "BT1" H 10068 2046 50  0000 L CNN
 F 1 "3v" H 10068 1955 50  0000 L CNN
-F 2 "BU2032SM-BT-GTR:BU2032SMBTGTR" V 9950 2010 50  0001 C CNN
+F 2 "CR2032-BS-6-1:CR2032BS61" V 9950 2010 50  0001 C CNN
 F 3 "~" V 9950 2010 50  0001 C CNN
 	1    9950 1950
 	1    0    0    -1  
-$EndComp
-$Comp
-L SSD1306-128x64_OLED:SSD1306 Brd1
-U 1 1 5F487665
-P 8500 5750
-F 0 "Brd1" H 8778 5854 50  0000 L CNN
-F 1 "SSD1306" H 8778 5763 50  0000 L CNN
-F 2 "SSD1306:128x64OLED" H 8500 6000 50  0001 C CNN
-F 3 "" H 8500 6000 50  0001 C CNN
-	1    8500 5750
-	-1   0    0    1   
 $EndComp
 $Comp
 L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R6
@@ -298,27 +287,9 @@ Wire Wire Line
 	2150 2900 2500 2900
 Text Label 2500 2900 0    39   ~ 0
 IO22_SCL
-Wire Wire Line
-	8650 6100 8650 6400
-Wire Wire Line
-	8650 6400 8900 6400
-Wire Wire Line
-	8900 6400 8900 6550
-Wire Wire Line
-	8450 6100 8450 6400
-Wire Wire Line
-	8450 6400 8250 6400
-Wire Wire Line
-	8250 6400 8250 6650
-Wire Wire Line
-	8350 6100 8350 6300
-Wire Wire Line
-	8350 6300 8050 6300
-Wire Wire Line
-	8050 6300 8050 6650
-Text Label 8250 6650 1    39   ~ 0
+Text Label 7790 6850 2    39   ~ 0
 IO22_SCL
-Text Label 8050 6650 1    39   ~ 0
+Text Label 7790 6950 2    39   ~ 0
 IO21_SDA
 Text Notes 4550 2400 0    118  ~ 0
 Load Switch
@@ -388,7 +359,7 @@ IO18_SCL
 Text Label 6750 2200 0    39   ~ 0
 IO5_SDA
 Wire Notes Line width 20 style dash_dot rgb(194, 18, 10)
-	550  7700 11150 7700
+	550  8500 11150 8500
 Wire Notes Line width 20 style dash_dot rgb(194, 5, 6)
 	11150 7700 11150 500 
 Wire Notes Line width 20 style dash_dot rgb(194, 10, 3)
@@ -604,7 +575,7 @@ Text Label 2500 3700 0    39   ~ 0
 A1_7_BATT
 Text Notes 13000 4550 0    118  ~ 0
 Power Section
-Text Notes 2550 8000 0    118  ~ 0
+Text Notes 2650 8750 0    118  ~ 0
 USB Port
 $Comp
 L open_authenticator-rescue:GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR08
@@ -618,17 +589,6 @@ F 3 "" H 8800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8800 3100
-$Comp
-L open_authenticator-rescue:GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR010
-U 1 1 5FAD86D4
-P 8900 6550
-F 0 "#PWR010" H 8900 6300 50  0001 C CNN
-F 1 "GND" H 8905 6377 50  0000 C CNN
-F 2 "" H 8900 6550 50  0001 C CNN
-F 3 "" H 8900 6550 50  0001 C CNN
-	1    8900 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7800 1300 8700 1300
 Wire Wire Line
@@ -638,9 +598,7 @@ Wire Wire Line
 Connection ~ 7800 1300
 Text Label 7200 1300 2    50   ~ 0
 LOAD_SWITCH_VCC
-Wire Wire Line
-	8550 6100 8550 7100
-Text Label 8550 7100 1    50   ~ 0
+Text Label 6820 4860 3    50   ~ 0
 LOAD_SWITCH_VCC
 Wire Notes Line width 20 style dash_dot rgb(194, 9, 8)
 	550  4300 11100 4300
@@ -899,62 +857,62 @@ Wire Notes Line width 20 style dash_dot rgb(194, 7, 0)
 $Comp
 L open_authenticator-rescue:GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR024
 U 1 1 5FB64F2A
-P 2600 9400
-F 0 "#PWR024" H 2600 9150 50  0001 C CNN
-F 1 "GND" H 2605 9227 50  0000 C CNN
-F 2 "" H 2600 9400 50  0001 C CNN
-F 3 "" H 2600 9400 50  0001 C CNN
-	1    2600 9400
+P 2950 10300
+F 0 "#PWR024" H 2950 10050 50  0001 C CNN
+F 1 "GND" H 2955 10127 50  0000 C CNN
+F 2 "" H 2950 10300 50  0001 C CNN
+F 3 "" H 2950 10300 50  0001 C CNN
+	1    2950 10300
 	1    0    0    -1  
 $EndComp
 $Comp
 L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R11
 U 1 1 5FB6BF47
-P 3700 8900
-F 0 "R11" V 3495 8900 50  0000 C CNN
-F 1 "5.1k" V 3586 8900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 8900 50  0001 C CNN
-F 3 "~" H 3700 8900 50  0001 C CNN
-	1    3700 8900
+P 4050 9800
+F 0 "R11" V 3845 9800 50  0000 C CNN
+F 1 "5.1k" V 3936 9800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 9800 50  0001 C CNN
+F 3 "~" H 4050 9800 50  0001 C CNN
+	1    4050 9800
 	0    1    1    0   
 $EndComp
 $Comp
 L open_authenticator-rescue:GND-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR025
 U 1 1 5FB7EC2E
-P 3950 9400
-F 0 "#PWR025" H 3950 9150 50  0001 C CNN
-F 1 "GND" V 3955 9272 50  0000 R CNN
-F 2 "" H 3950 9400 50  0001 C CNN
-F 3 "" H 3950 9400 50  0001 C CNN
-	1    3950 9400
+P 4300 10300
+F 0 "#PWR025" H 4300 10050 50  0001 C CNN
+F 1 "GND" V 4305 10172 50  0000 R CNN
+F 2 "" H 4300 10300 50  0001 C CNN
+F 3 "" H 4300 10300 50  0001 C CNN
+	1    4300 10300
 	1    0    0    -1  
 $EndComp
 $Comp
 L open_authenticator-rescue:VBUS-power-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue #PWR026
 U 1 1 5FB99C8D
-P 3300 8600
-F 0 "#PWR026" H 3300 8450 50  0001 C CNN
-F 1 "VBUS" V 3315 8728 50  0000 L CNN
-F 2 "" H 3300 8600 50  0001 C CNN
-F 3 "" H 3300 8600 50  0001 C CNN
-	1    3300 8600
+P 3650 9500
+F 0 "#PWR026" H 3650 9350 50  0001 C CNN
+F 1 "VBUS" V 3665 9628 50  0000 L CNN
+F 2 "" H 3650 9500 50  0001 C CNN
+F 3 "" H 3650 9500 50  0001 C CNN
+	1    3650 9500
 	1    0    0    -1  
 $EndComp
 $Comp
 L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R12
 U 1 1 5FBD3EE2
-P 3700 9200
-F 0 "R12" V 3495 9200 50  0000 C CNN
-F 1 "5.1k" V 3586 9200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 9200 50  0001 C CNN
-F 3 "~" H 3700 9200 50  0001 C CNN
-	1    3700 9200
+P 4050 10100
+F 0 "R12" V 3845 10100 50  0000 C CNN
+F 1 "5.1k" V 3936 10100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 10100 50  0001 C CNN
+F 3 "~" H 4050 10100 50  0001 C CNN
+	1    4050 10100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3950 8900 3800 8900
+	4300 9800 4150 9800
 Wire Wire Line
-	3950 9200 3950 9400
+	4300 10100 4300 10300
 Wire Notes Line width 20 style dash_dot rgb(194, 24, 3)
 	11150 7700 11150 11150
 Text Label 11450 5800 0    50   ~ 0
@@ -1085,29 +1043,29 @@ Connection ~ 14050 8800
 Wire Wire Line
 	14050 8800 14500 8800
 Wire Wire Line
-	3800 9200 3950 9200
+	4150 10100 4300 10100
 Wire Wire Line
-	3200 8900 3600 8900
+	3550 9800 3950 9800
 Wire Wire Line
-	3200 9000 3350 9000
+	3550 9900 3700 9900
 Wire Wire Line
-	3350 9000 3350 9400
+	3700 9900 3700 10300
 Wire Wire Line
-	3350 9400 2600 9400
+	3700 10300 2950 10300
 Wire Wire Line
-	1900 9400 1900 9200
+	2250 10300 2250 10100
 Wire Wire Line
-	3200 9100 3300 9100
+	3550 10000 3650 10000
 Wire Wire Line
-	3300 9100 3300 8800
+	3650 10000 3650 9700
 Wire Wire Line
-	3300 8800 3200 8800
+	3650 9700 3550 9700
 Wire Wire Line
-	3300 8800 3300 8600
-Connection ~ 3300 8800
-Connection ~ 2600 9400
+	3650 9700 3650 9500
+Connection ~ 3650 9700
+Connection ~ 2950 10300
 Wire Wire Line
-	2600 9400 1900 9400
+	2950 10300 2250 10300
 $Comp
 L DMP2305U-7:DMP2305U-7 Q1
 U 1 1 5FB76610
@@ -1184,84 +1142,84 @@ Wire Wire Line
 $Comp
 L TYPE-C-31-M-17:TYPE-C-31-M-17 J2
 U 1 1 5FB28BF9
-P 3200 9200
-F 0 "J2" H 3850 8535 50  0000 C CNN
-F 1 "TYPE-C-31-M-17" H 3850 8626 50  0000 C CNN
-F 2 "TYPE-C-31-M-17:TYPEC31M17" H 4350 9300 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" H 4350 9200 50  0001 L CNN
-F 4 "USB Connectors 6 Receptacle 1 RoHS" H 4350 9100 50  0001 L CNN "Description"
-F 5 "3.26" H 4350 9000 50  0001 L CNN "Height"
-F 6 "Korean Hroparts Elec" H 4350 8900 50  0001 L CNN "Manufacturer_Name"
-F 7 "TYPE-C-31-M-17" H 4350 8800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 4350 8700 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 4350 8600 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 4350 8500 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 4350 8400 50  0001 L CNN "Mouser Price/Stock"
-	1    3200 9200
+P 3550 10100
+F 0 "J2" H 4200 9435 50  0000 C CNN
+F 1 "TYPE-C-31-M-17" H 4200 9526 50  0000 C CNN
+F 2 "TYPE-C-31-M-17:TYPEC31M17" H 4700 10200 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" H 4700 10100 50  0001 L CNN
+F 4 "USB Connectors 6 Receptacle 1 RoHS" H 4700 10000 50  0001 L CNN "Description"
+F 5 "3.26" H 4700 9900 50  0001 L CNN "Height"
+F 6 "Korean Hroparts Elec" H 4700 9800 50  0001 L CNN "Manufacturer_Name"
+F 7 "TYPE-C-31-M-17" H 4700 9700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4700 9600 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 4700 9500 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 4700 9400 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 4700 9300 50  0001 L CNN "Mouser Price/Stock"
+	1    3550 10100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1900 8800 1900 8900
+	2250 9700 2250 9800
 Wire Wire Line
-	1900 8900 1900 9000
-Connection ~ 1900 8900
+	2250 9800 2250 9900
+Connection ~ 2250 9800
 Wire Wire Line
-	1900 9000 1900 9100
-Connection ~ 1900 9000
+	2250 9900 2250 10000
+Connection ~ 2250 9900
 Wire Wire Line
-	1900 9100 1900 9200
-Connection ~ 1900 9100
-Connection ~ 1900 9200
+	2250 10000 2250 10100
+Connection ~ 2250 10000
+Connection ~ 2250 10100
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5FBDE92D
-P 8650 8700
-F 0 "TP1" H 8708 8818 50  0000 L CNN
-F 1 "3V3" H 8708 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8850 8700 50  0001 C CNN
-F 3 "~" H 8850 8700 50  0001 C CNN
-	1    8650 8700
+P 8700 9650
+F 0 "TP1" H 8758 9768 50  0000 L CNN
+F 1 "3V3" H 8758 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8900 9650 50  0001 C CNN
+F 3 "~" H 8900 9650 50  0001 C CNN
+	1    8700 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5FBE16FC
-P 9450 8700
-F 0 "TP4" H 9508 8818 50  0000 L CNN
-F 1 "LOAD_SWITCH" H 9508 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9650 8700 50  0001 C CNN
-F 3 "~" H 9650 8700 50  0001 C CNN
-	1    9450 8700
+P 9500 9650
+F 0 "TP4" H 9558 9768 50  0000 L CNN
+F 1 "LOAD_SWITCH" H 9558 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9700 9650 50  0001 C CNN
+F 3 "~" H 9700 9650 50  0001 C CNN
+	1    9500 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5FBE1988
-P 10100 8700
-F 0 "TP5" H 10158 8818 50  0000 L CNN
-F 1 "V_INPUT" H 10158 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 10300 8700 50  0001 C CNN
-F 3 "~" H 10300 8700 50  0001 C CNN
-	1    10100 8700
+P 10150 9650
+F 0 "TP5" H 10208 9768 50  0000 L CNN
+F 1 "V_INPUT" H 10208 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 10350 9650 50  0001 C CNN
+F 3 "~" H 10350 9650 50  0001 C CNN
+	1    10150 9650
 	1    0    0    -1  
 $EndComp
-Text Notes 7900 8000 0    118  ~ 0
+Text Notes 7850 8700 0    118  ~ 0
 Test points 
 Wire Wire Line
-	8650 8700 8650 9300
+	8700 9650 8700 10250
 Wire Wire Line
-	9450 8700 9450 9300
+	9500 9650 9500 10250
 Wire Wire Line
-	10100 8700 10100 9300
+	10150 9650 10150 10250
 $Comp
 L power:+3.3V #PWR030
 U 1 1 5FC0B82F
-P 8650 9300
-F 0 "#PWR030" H 8650 9150 50  0001 C CNN
-F 1 "+3.3V" H 8665 9473 50  0000 C CNN
-F 2 "" H 8650 9300 50  0001 C CNN
-F 3 "" H 8650 9300 50  0001 C CNN
-	1    8650 9300
+P 8700 10250
+F 0 "#PWR030" H 8700 10100 50  0001 C CNN
+F 1 "+3.3V" H 8715 10423 50  0000 C CNN
+F 2 "" H 8700 10250 50  0001 C CNN
+F 3 "" H 8700 10250 50  0001 C CNN
+	1    8700 10250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1286,9 +1244,9 @@ F 3 "" H 12950 2150 50  0001 C CNN
 	1    12950 2150
 	-1   0    0    1   
 $EndComp
-Text Label 9450 9300 1    39   ~ 0
+Text Label 9500 10250 1    39   ~ 0
 LOAD_SWITCH_VCC
-Text Label 10100 9300 1    39   ~ 0
+Text Label 10150 10250 1    39   ~ 0
 V_INPUT
 Wire Wire Line
 	12450 2150 12650 2150
@@ -1357,10 +1315,10 @@ ON - Charge complete state\nOFF- Charging state
 Text Notes 11550 4100 0    79   ~ 0
 I_charge = 1000/R_PROG\nI_charge = 1000/4700 = 213 mA\n\nWhere:\nR_PROG = kOhms\nI_REG = milliampere
 Wire Wire Line
-	3950 8900 3950 9200
-Connection ~ 3950 9200
+	4300 9800 4300 10100
+Connection ~ 4300 10100
 Wire Wire Line
-	3200 9200 3600 9200
+	3550 10100 3950 10100
 Connection ~ 1550 1150
 Wire Wire Line
 	1550 1150 1550 1200
@@ -1371,85 +1329,85 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5FBABC3C
-P 8200 8700
-F 0 "TP7" H 8258 8818 50  0000 L CNN
-F 1 "OLED_SCL" H 8258 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8400 8700 50  0001 C CNN
-F 3 "~" H 8400 8700 50  0001 C CNN
-	1    8200 8700
+P 8250 9650
+F 0 "TP7" H 8308 9768 50  0000 L CNN
+F 1 "OLED_SCL" H 8308 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8450 9650 50  0001 C CNN
+F 3 "~" H 8450 9650 50  0001 C CNN
+	1    8250 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5FBABFAB
-P 7750 8700
-F 0 "TP6" H 7808 8818 50  0000 L CNN
-F 1 "OLED_SDA" H 7808 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7950 8700 50  0001 C CNN
-F 3 "~" H 7950 8700 50  0001 C CNN
-	1    7750 8700
+P 7800 9650
+F 0 "TP6" H 7858 9768 50  0000 L CNN
+F 1 "OLED_SDA" H 7858 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8000 9650 50  0001 C CNN
+F 3 "~" H 8000 9650 50  0001 C CNN
+	1    7800 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5FBAC272
-P 7300 8700
-F 0 "TP3" H 7358 8818 50  0000 L CNN
-F 1 "RTC_SCL" H 7358 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7500 8700 50  0001 C CNN
-F 3 "~" H 7500 8700 50  0001 C CNN
-	1    7300 8700
+P 7350 9650
+F 0 "TP3" H 7408 9768 50  0000 L CNN
+F 1 "RTC_SCL" H 7408 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7550 9650 50  0001 C CNN
+F 3 "~" H 7550 9650 50  0001 C CNN
+	1    7350 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5FBAC716
-P 6900 8700
-F 0 "TP2" H 6958 8818 50  0000 L CNN
-F 1 "RTC_SDA" H 6958 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7100 8700 50  0001 C CNN
-F 3 "~" H 7100 8700 50  0001 C CNN
-	1    6900 8700
+P 6950 9650
+F 0 "TP2" H 7008 9768 50  0000 L CNN
+F 1 "RTC_SDA" H 7008 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7150 9650 50  0001 C CNN
+F 3 "~" H 7150 9650 50  0001 C CNN
+	1    6950 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 8700 8200 9300
+	8250 9650 8250 10250
 Wire Wire Line
-	7750 8700 7750 9300
+	7800 9650 7800 10250
 Wire Wire Line
-	7300 8700 7300 9300
+	7350 9650 7350 10250
 Wire Wire Line
-	6900 8700 6900 9300
-Text Label 6900 9300 1    50   ~ 0
+	6950 9650 6950 10250
+Text Label 6950 10250 1    50   ~ 0
 IO5_SDA
-Text Label 7300 9300 1    50   ~ 0
+Text Label 7350 10250 1    50   ~ 0
 IO18_SCL
-Text Label 7750 9300 1    50   ~ 0
+Text Label 7800 10250 1    50   ~ 0
 IO21_SDA
-Text Label 8200 9300 1    50   ~ 0
+Text Label 8250 10250 1    50   ~ 0
 IO22_SCL
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5FC0B51C
-P 9050 8700
-F 0 "TP8" H 9108 8818 50  0000 L CNN
-F 1 "GND" H 9108 8727 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9250 8700 50  0001 C CNN
-F 3 "~" H 9250 8700 50  0001 C CNN
-	1    9050 8700
+P 9100 9650
+F 0 "TP8" H 9158 9768 50  0000 L CNN
+F 1 "GND" H 9158 9677 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 9300 9650 50  0001 C CNN
+F 3 "~" H 9300 9650 50  0001 C CNN
+	1    9100 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 8700 9050 9300
+	9100 9650 9100 10250
 $Comp
 L power:GND #PWR034
 U 1 1 5FC15BFB
-P 9050 9300
-F 0 "#PWR034" H 9050 9050 50  0001 C CNN
-F 1 "GND" H 9055 9127 50  0000 C CNN
-F 2 "" H 9050 9300 50  0001 C CNN
-F 3 "" H 9050 9300 50  0001 C CNN
-	1    9050 9300
+P 9100 10250
+F 0 "#PWR034" H 9100 10000 50  0001 C CNN
+F 1 "GND" H 9105 10077 50  0000 C CNN
+F 2 "" H 9100 10250 50  0001 C CNN
+F 3 "" H 9100 10250 50  0001 C CNN
+	1    9100 10250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1539,4 +1497,379 @@ Wire Wire Line
 Wire Wire Line
 	12150 6900 12550 6900
 Connection ~ 12550 6900
+$Comp
+L oled_ribbon_connectors:SSD1306_ribbon P1
+U 1 1 5FFFD466
+P 9900 6600
+F 0 "P1" V 9847 6231 60  0000 R CNN
+F 1 "SSD1306_ribbon" V 9953 6231 60  0000 R CNN
+F 2 "ribbon_connectors:SSD1306_ribbon" H 9500 6900 60  0001 C CNN
+F 3 "" H 9500 6900 60  0000 C CNN
+	1    9900 6600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9600 5150 9450 5150
+Wire Wire Line
+	9450 5150 9450 5850
+Wire Wire Line
+	9450 8050 9600 8050
+Wire Wire Line
+	9600 7950 9450 7950
+Connection ~ 9450 7950
+Wire Wire Line
+	9450 7950 9450 8050
+Wire Wire Line
+	9600 7150 9450 7150
+Connection ~ 9450 7150
+Wire Wire Line
+	9450 7150 9450 7250
+Wire Wire Line
+	9600 7250 9450 7250
+Connection ~ 9450 7250
+Wire Wire Line
+	9450 7250 9450 7350
+Wire Wire Line
+	9600 7350 9450 7350
+Connection ~ 9450 7350
+Wire Wire Line
+	9600 7450 9450 7450
+Wire Wire Line
+	9450 7350 9450 7450
+Connection ~ 9450 7450
+Wire Wire Line
+	9450 7450 9450 7550
+Wire Wire Line
+	9600 7550 9450 7550
+Connection ~ 9450 7550
+Wire Wire Line
+	9450 7550 9450 7950
+Wire Wire Line
+	9600 6650 9450 6650
+Connection ~ 9450 6650
+Wire Wire Line
+	9450 6650 9450 6750
+Wire Wire Line
+	9600 6750 9450 6750
+Connection ~ 9450 6750
+Wire Wire Line
+	9450 6750 9450 7150
+Wire Wire Line
+	9600 6250 9450 6250
+Connection ~ 9450 6250
+Wire Wire Line
+	9450 6250 9450 6350
+Wire Wire Line
+	9600 6350 9450 6350
+Connection ~ 9450 6350
+Wire Wire Line
+	9450 6350 9450 6550
+Wire Wire Line
+	9600 6050 9450 6050
+Connection ~ 9450 6050
+Wire Wire Line
+	9450 6050 9450 6250
+Wire Wire Line
+	9600 5850 9450 5850
+Connection ~ 9450 5850
+Wire Wire Line
+	9450 5850 9450 6050
+$Comp
+L power:GND #PWR09
+U 1 1 60103FDB
+P 9450 8200
+F 0 "#PWR09" H 9450 7950 50  0001 C CNN
+F 1 "GND" H 9455 8027 50  0000 C CNN
+F 2 "" H 9450 8200 50  0001 C CNN
+F 3 "" H 9450 8200 50  0001 C CNN
+	1    9450 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 8050 9450 8200
+Connection ~ 9450 8050
+$Comp
+L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R17
+U 1 1 60115BFC
+P 8410 5950
+F 0 "R17" H 8480 5950 50  0000 L CNN
+F 1 "4.7k" H 8190 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8410 5950 50  0001 C CNN
+F 3 "~" H 8410 5950 50  0001 C CNN
+	1    8410 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R15
+U 1 1 60117215
+P 8240 6690
+F 0 "R15" H 8308 6736 50  0000 L CNN
+F 1 "4.7k" H 8308 6645 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8240 6690 50  0001 C CNN
+F 3 "~" H 8240 6690 50  0001 C CNN
+	1    8240 6690
+	1    0    0    -1  
+$EndComp
+$Comp
+L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R16
+U 1 1 60117C04
+P 8590 6690
+F 0 "R16" H 8658 6736 50  0000 L CNN
+F 1 "4.7k" H 8658 6645 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8590 6690 50  0001 C CNN
+F 3 "~" H 8590 6690 50  0001 C CNN
+	1    8590 6690
+	1    0    0    -1  
+$EndComp
+$Comp
+L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2fa_board_design-rescue-open_authenticator-rescue R19
+U 1 1 60118993
+P 9100 7650
+F 0 "R19" V 9180 7570 50  0000 L CNN
+F 1 "910k" V 9260 7550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 7650 50  0001 C CNN
+F 3 "~" H 9100 7650 50  0001 C CNN
+	1    9100 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 6017E9AF
+P 9200 5550
+F 0 "C18" V 9160 5440 50  0000 C CNN
+F 1 "1uF 16V" V 9150 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9200 5550 50  0001 C CNN
+F 3 "~" H 9200 5550 50  0001 C CNN
+	1    9200 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 6017F7AA
+P 9200 5250
+F 0 "C17" V 9240 5150 50  0000 C CNN
+F 1 "1uF 16V" V 9240 5450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9200 5250 50  0001 C CNN
+F 3 "~" H 9200 5250 50  0001 C CNN
+	1    9200 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 5250 9600 5250
+Wire Wire Line
+	9100 5250 9000 5250
+Wire Wire Line
+	9000 5250 9000 5350
+Wire Wire Line
+	9000 5350 9600 5350
+Wire Wire Line
+	9300 5550 9600 5550
+Wire Wire Line
+	9600 5450 9000 5450
+Wire Wire Line
+	9000 5450 9000 5550
+Wire Wire Line
+	9000 5550 9100 5550
+$Comp
+L Device:C_Small C12
+U 1 1 601EF5FB
+P 7260 5950
+F 0 "C12" V 7370 5950 50  0000 C CNN
+F 1 "10uF 50V" V 7140 5950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7260 5950 50  0001 C CNN
+F 3 "~" H 7260 5950 50  0001 C CNN
+	1    7260 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 601EFED3
+P 7860 5950
+F 0 "C13" V 7970 5950 50  0000 C CNN
+F 1 "0.1uF 50V" V 7740 5950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7860 5950 50  0001 C CNN
+F 3 "~" H 7860 5950 50  0001 C CNN
+	1    7860 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 601F019E
+P 8130 6250
+F 0 "C14" V 8240 6250 50  0000 C CNN
+F 1 "0.1uF 50V" V 8000 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8130 6250 50  0001 C CNN
+F 3 "~" H 8130 6250 50  0001 C CNN
+	1    8130 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 5650 9200 5650
+Wire Wire Line
+	9600 5950 9200 5950
+Wire Wire Line
+	9200 5950 9200 5650
+Wire Wire Line
+	9200 6150 9200 5950
+Connection ~ 9200 5950
+$Comp
+L SS14:SS14 D1
+U 1 1 602B08AF
+P 8780 5550
+F 0 "D1" V 9134 5680 50  0000 L CNN
+F 1 "SS14" V 9225 5680 50  0000 L CNN
+F 2 "SS14:DIOM5227X270N" H 9280 5700 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SS19-D.pdf" H 9280 5600 50  0001 L CNN
+F 4 "1.0 A Schottky Barrier Rectifiers" H 9280 5500 50  0001 L CNN "Description"
+F 5 "2.7" H 9280 5400 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 9280 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "SS14" H 9280 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "512-SS14" H 9280 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D" H 9280 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SS14" H 9280 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ss14/on-semiconductor" H 9280 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    8780 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7260 5850 7260 5650
+Wire Wire Line
+	7260 5650 7860 5650
+Wire Wire Line
+	7860 5850 7860 5650
+Connection ~ 7860 5650
+Wire Wire Line
+	7860 5650 8410 5650
+Wire Wire Line
+	7260 6050 7260 6250
+Wire Wire Line
+	7260 6250 7860 6250
+Wire Wire Line
+	8230 6250 8410 6250
+Wire Wire Line
+	7860 6050 7860 6250
+Connection ~ 7860 6250
+Wire Wire Line
+	7860 6250 8030 6250
+Wire Wire Line
+	8410 5850 8410 5650
+Connection ~ 8410 5650
+Wire Wire Line
+	8410 5650 8780 5650
+Wire Wire Line
+	8410 6050 8410 6250
+Connection ~ 8410 6250
+Wire Wire Line
+	8410 6250 8780 6250
+Wire Wire Line
+	9600 6150 9200 6150
+Wire Wire Line
+	8780 5650 9200 5650
+Connection ~ 8780 5650
+Connection ~ 9200 5650
+$Comp
+L power:GND #PWR035
+U 1 1 603D312A
+P 7260 6250
+F 0 "#PWR035" H 7260 6000 50  0001 C CNN
+F 1 "GND" H 7265 6077 50  0000 C CNN
+F 2 "" H 7260 6250 50  0001 C CNN
+F 3 "" H 7260 6250 50  0001 C CNN
+	1    7260 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 60413FD1
+P 8360 7750
+F 0 "C15" V 8390 7850 50  0000 C CNN
+F 1 "4.7uF 50V" V 8390 7520 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8360 7750 50  0001 C CNN
+F 3 "~" H 8360 7750 50  0001 C CNN
+	1    8360 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 6041513D
+P 8830 7850
+F 0 "C16" V 8790 7730 50  0000 C CNN
+F 1 "2.2uF 50V" V 8790 8080 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8830 7850 50  0001 C CNN
+F 3 "~" H 8830 7850 50  0001 C CNN
+	1    8830 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8930 7850 9600 7850
+Wire Wire Line
+	8460 7750 9600 7750
+Wire Wire Line
+	9200 7650 9600 7650
+Wire Wire Line
+	8260 7750 8110 7750
+Wire Wire Line
+	8110 7750 8110 7850
+Wire Wire Line
+	8110 7850 8730 7850
+Wire Wire Line
+	8110 7750 8110 7650
+Wire Wire Line
+	8110 7650 9000 7650
+Connection ~ 8110 7750
+Wire Wire Line
+	8110 7850 8110 8050
+Wire Wire Line
+	8110 8050 9450 8050
+Connection ~ 8110 7850
+Wire Wire Line
+	9600 6550 9450 6550
+Connection ~ 9450 6550
+Wire Wire Line
+	9450 6550 9450 6650
+Wire Wire Line
+	9600 6450 8780 6450
+Wire Wire Line
+	8780 6450 8780 6250
+Connection ~ 8780 6250
+NoConn ~ 9600 5750
+Wire Wire Line
+	9600 6950 9290 6950
+Wire Wire Line
+	9600 7050 9290 7050
+Wire Wire Line
+	9290 7050 9290 6950
+Connection ~ 9290 6950
+Wire Wire Line
+	7260 5650 6820 5650
+Wire Wire Line
+	6820 5650 6820 6520
+Connection ~ 7260 5650
+Wire Wire Line
+	6820 5650 6820 4860
+Connection ~ 6820 5650
+Wire Wire Line
+	7790 6950 8240 6950
+Wire Wire Line
+	7790 6850 8590 6850
+Wire Wire Line
+	8240 6790 8240 6950
+Connection ~ 8240 6950
+Wire Wire Line
+	8240 6950 9290 6950
+Wire Wire Line
+	8590 6790 8590 6850
+Connection ~ 8590 6850
+Wire Wire Line
+	8590 6850 9600 6850
+Wire Wire Line
+	8240 6590 8240 6520
+Wire Wire Line
+	8240 6520 8590 6520
+Wire Wire Line
+	8590 6520 8590 6590
+Connection ~ 8240 6520
+Connection ~ 7260 6250
+Wire Wire Line
+	6820 6520 8240 6520
 $EndSCHEMATC

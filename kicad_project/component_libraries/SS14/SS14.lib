@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SS14
+#/972457/362953/2.48/2/2/Schottky Diode
+DEF SS14 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "SS14" 500 250 50 H V L CNN
+F2 "DIOM5227X270N" 500 150 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/SS19-D.pdf" 500 50 50 H I L CNN
+F4 "1.0 A Schottky Barrier Rectifiers" 500 -50 50 H I L CNN "Description"
+F5 "2.7" 500 -150 50 H I L CNN "Height"
+F6 "ON Semiconductor" 500 -250 50 H I L CNN "Manufacturer_Name"
+F7 "SS14" 500 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "512-SS14" 500 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS14?qs=mVVXn4M53U%252BvrBaFv5vr4w%3D%3D" 500 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "SS14" 500 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ss14/on-semiconductor" 500 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

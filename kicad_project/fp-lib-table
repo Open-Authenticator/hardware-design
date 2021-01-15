@@ -1,9 +1,10 @@
 (fp_lib_table
-  (lib (name BU2032SM-BT-GTR)(type Legacy)(uri ${KIPRJMOD}/component_libraries/BU2032SM-BT-GTR-coin-cell-holder/BU2032SM-BT-GTR.mod)(options "")(descr ""))
   (lib (name CDRH104RNP-150NC)(type Legacy)(uri ${KIPRJMOD}/component_libraries/CDRH104RNP-inductor/CDRH104RNP-150NC.mod)(options "")(descr ""))
   (lib (name DMP2305U-7)(type Legacy)(uri ${KIPRJMOD}/component_libraries/DMP2305U-mosfet/DMP2305U-7.mod)(options "")(descr ""))
   (lib (name TYPE-C-31-M-17)(type Legacy)(uri ${KIPRJMOD}/component_libraries/KOREAN-HROPARTS-ELEC-TYPE-C-31-M-17-usb-type-c-receptable-6-pin/TYPE-C-31-M-17.mod)(options "")(descr ""))
-  (lib (name SSD1306)(type KiCad)(uri ${KIPRJMOD}/component_libraries/SSD1306-128x64-oled/library/SSD1306.pretty)(options "")(descr ""))
   (lib (name TPS22919DCKR)(type Legacy)(uri ${KIPRJMOD}/component_libraries/TPS22919DCKR-load-switch/TPS22919DCKR.mod)(options "")(descr ""))
   (lib (name slide_switch_12D00)(type KiCad)(uri ${KIPRJMOD}/component_libraries/SS-12D00-slide-switch/slide_switch_12D00.pretty)(options "")(descr ""))
+  (lib (name ribbon_connectors)(type KiCad)(uri ${KIPRJMOD}/component_libraries/SSD1306_128x65_0.96_OLED_BARE_PANEL/ribbon_connectors.pretty)(options "")(descr ""))
+  (lib (name SS14)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SS14/SS14.mod)(options "")(descr ""))
+  (lib (name CR2032-BS-6-1)(type Legacy)(uri ${KIPRJMOD}/component_libraries/2032-BS-6-1-coin-cell-holder/CR2032-BS-6-1.mod)(options "")(descr ""))
 )

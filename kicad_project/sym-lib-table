@@ -1,9 +1,10 @@
 (sym_lib_table
   (lib (name TYPE-C-31-M-17)(type Legacy)(uri ${KIPRJMOD}/component_libraries/KOREAN-HROPARTS-ELEC-TYPE-C-31-M-17-usb-type-c-receptable-6-pin/TYPE-C-31-M-17.lib)(options "")(descr ""))
   (lib (name TPS22919DCKR)(type Legacy)(uri ${KIPRJMOD}/component_libraries/TPS22919DCKR-load-switch/TPS22919DCKR.lib)(options "")(descr ""))
-  (lib (name SSD1306-128x64_OLED)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SSD1306-128x64-oled/library/SSD1306-128x64_OLED.lib)(options "")(descr ""))
   (lib (name DMP2305U-7)(type Legacy)(uri ${KIPRJMOD}/component_libraries/DMP2305U-mosfet/DMP2305U-7.lib)(options "")(descr ""))
   (lib (name CDRH104RNP-150NC)(type Legacy)(uri ${KIPRJMOD}/component_libraries/CDRH104RNP-inductor/CDRH104RNP-150NC.lib)(options "")(descr ""))
-  (lib (name BU2032SM-BT-GTR)(type Legacy)(uri ${KIPRJMOD}/component_libraries/BU2032SM-BT-GTR-coin-cell-holder/BU2032SM-BT-GTR.lib)(options "")(descr ""))
   (lib (name open_authenticator-rescue)(type Legacy)(uri ${KIPRJMOD}/open_authenticator-rescue.lib)(options "")(descr ""))
+  (lib (name oled_ribbon_connectors)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SSD1306_128x65_0.96_OLED_BARE_PANEL/oled_ribbon_connectors.lib)(options "")(descr ""))
+  (lib (name SS14)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SS14/SS14.lib)(options "")(descr ""))
+  (lib (name CR2032-BS-6-1)(type Legacy)(uri ${KIPRJMOD}/component_libraries/2032-BS-6-1-coin-cell-holder/CR2032-BS-6-1.lib)(options "")(descr ""))
 )

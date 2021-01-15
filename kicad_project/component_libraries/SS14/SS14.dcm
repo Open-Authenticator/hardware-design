@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS14
+D 1.0 A Schottky Barrier Rectifiers
+K
+F http://www.onsemi.com/pub/Collateral/SS19-D.pdf
+$ENDCMP
+#
+#End Doc Library
