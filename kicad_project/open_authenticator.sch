@@ -1895,17 +1895,6 @@ F 3 "~" H 8200 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 600C9E06
-P 9500 10250
-F 0 "H4" H 9600 10299 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9350 9750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad" H 9500 10250 50  0001 C CNN
-F 3 "~" H 9500 10250 50  0001 C CNN
-	1    9500 10250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 600DDC1D
 P 8850 10250
@@ -1955,17 +1944,4 @@ F 3 "" H 8850 10650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 10350 8850 10650
-$Comp
-L power:GND #PWR0104
-U 1 1 6019CA77
-P 9500 10650
-F 0 "#PWR0104" H 9500 10400 50  0001 C CNN
-F 1 "GND" H 9505 10477 50  0000 C CNN
-F 2 "" H 9500 10650 50  0001 C CNN
-F 3 "" H 9500 10650 50  0001 C CNN
-	1    9500 10650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 10350 9500 10650
 $EndSCHEMATC
