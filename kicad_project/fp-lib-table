@@ -8,4 +8,5 @@
   (lib (name SS14)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SS14/SS14.mod)(options "")(descr ""))
   (lib (name CR2032-BS-6-1)(type Legacy)(uri ${KIPRJMOD}/component_libraries/2032-BS-6-1-coin-cell-holder/CR2032-BS-6-1.mod)(options "")(descr ""))
   (lib (name kicad_project)(type KiCad)(uri /home/vedant/Desktop/kicad_project.pretty)(options "")(descr ""))
+  (lib (name jst-ph-2-pin-connector)(type KiCad)(uri ${KIPRJMOD}/component_libraries/JST-PH-2pin-connector/jst-ph-2-pin-connector.pretty)(options "")(descr ""))
 )
