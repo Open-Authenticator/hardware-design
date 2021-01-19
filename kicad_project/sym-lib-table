@@ -7,4 +7,5 @@
   (lib (name oled_ribbon_connectors)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SSD1306_128x65_0.96_OLED_BARE_PANEL/oled_ribbon_connectors.lib)(options "")(descr ""))
   (lib (name SS14)(type Legacy)(uri ${KIPRJMOD}/component_libraries/SS14/SS14.lib)(options "")(descr ""))
   (lib (name CR2032-BS-6-1)(type Legacy)(uri ${KIPRJMOD}/component_libraries/2032-BS-6-1-coin-cell-holder/CR2032-BS-6-1.lib)(options "")(descr ""))
+  (lib (name S2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/component_libraries/JST-PH-2pin-connector/S2B-PH-SM4-TB_LF__SN_.lib)(options "")(descr ""))
 )
