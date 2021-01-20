@@ -1947,4 +1947,6 @@ Wire Wire Line
 	12650 1950 12750 1950
 Wire Wire Line
 	12450 1950 12450 2050
+Text Notes 12250 1350 0    50   ~ 0
+Connect 4.2V rated 1C Lithium \nPolymer Battery. Preferably 402025 \nsized 300mAh battery\n\nSize: 20mmx20mmx4mm
 $EndSCHEMATC
