@@ -45,3 +45,12 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ![](assets/open_authenticator_back.png)
 
+## Credits
+
+![](https://blogdotoshparkdotcom.files.wordpress.com/2016/01/oshpark_logo_2x_360.png)
+
+Thanks to OSHPark for sponsoring first prototypes
+
+![](https://www.electronics-lab.com/wp-content/uploads/2020/04/0x0.png)
+
+Thanks to PCBway for sponsoring the final prototypes
