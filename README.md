@@ -10,7 +10,7 @@ This repository contains hardware design files and datasheets for the open authe
 
 * Small form factor of 82mm x 42mm
 * Uses ESP32-WROOM-32D module
-* Uses 128x64 0.96" inch OLED module
+* Uses 128x64 0.96" inch OLED panel
 * Uses DS3231 RTC with battery backup (CR2032) for timekeeping
 * Powered by 3.7V 300 mAh LiPo battery
 * Uses MCP73831 for charging LiPo battery
