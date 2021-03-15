@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Open Authenticator"
-Date "2020-11-29"
-Rev "v1.3"
+Date "2021-03-15"
+Rev "v1.4"
 Comp ""
 Comment1 ""
 Comment2 ""
