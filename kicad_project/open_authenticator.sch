@@ -1563,7 +1563,7 @@ L open_authenticator-rescue:R_Small_US-Device-esp_2fa_board_design-rescue-esp_2f
 U 1 1 60115BFC
 P 8410 5950
 F 0 "R17" H 8480 5950 50  0000 L CNN
-F 1 "4.7k" H 8190 5950 50  0000 L CNN
+F 1 "310k" H 8190 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8410 5950 50  0001 C CNN
 F 3 "~" H 8410 5950 50  0001 C CNN
 	1    8410 5950
