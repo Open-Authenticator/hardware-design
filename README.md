@@ -33,7 +33,7 @@ To view/modify the files from this repository, install KiCAD from: [https://kica
 
 ## Schematics
 
-![](/assets/esp_2fa_board_design.svg)
+![](/assets/open_authenticator.svg)
 
 ## Plots
 
